@@ -39,7 +39,7 @@ body {
 
 .billing {
   border: 2px solid #b9b9b9;
-  font-size: 12px; 
+  font-size: 12px;
 
   .billing-header {
     font-weight: bold;
@@ -72,18 +72,18 @@ body {
       width: 100%;
       line-height: 1.2em;
       border-collapse: collapse;
-    
+
       thead th {
         @extend .billing-header;
         text-align: center;
-      }    
+      }
 
       td {
         @extend .customer;
         text-align: center;
         height: 30px;
         border-bottom: 1px solid #e7e7e7;
-      }    
+      }
 
       .views-field-commerce-total {
         text-align: right;
@@ -115,7 +115,7 @@ body {
       text-align: right;
       width: 80px;
       background: #cccccc;
-    }  
+    }
   }
 }
 
