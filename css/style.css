@@ -8797,14 +8797,14 @@ button.close {
     display: none !important;
   }
 }
-/* line 1, ../sass/base/_base.scss */
+/* line 2, ../sass/base/_base.scss */
 .not-front .pane-page-title {
   text-align: center;
   padding: 3px 0;
   background: #ABC4DE;
-  margin: 0 -30px 0 -30px;
+  margin: 0 -30px 20px -30px;
 }
-/* line 7, ../sass/base/_base.scss */
+/* line 8, ../sass/base/_base.scss */
 .not-front .pane-page-title h1 {
   display: inline;
   color: white;
@@ -8812,13 +8812,13 @@ button.close {
   font-size: 19px;
   font-weight: 100;
 }
-/* line 14, ../sass/base/_base.scss */
+/* line 15, ../sass/base/_base.scss */
 .not-front .pane-page-title h1:before {
   font-family: FontAwesome;
   content: "\f0c2";
   padding-right: 15px;
 }
-/* line 21, ../sass/base/_base.scss */
+/* line 22, ../sass/base/_base.scss */
 .not-front .pane-page-title p {
   display: inline;
   color: white;
@@ -8828,7 +8828,7 @@ button.close {
 }
 
 @media screen and (max-width: 1600px) {
-  /* line 31, ../sass/base/_base.scss */
+  /* line 32, ../sass/base/_base.scss */
   .container, .front .pane-views-news-news-block, .header-line .wrap,
   .header-group,
   #node-content h1,
@@ -8836,12 +8836,12 @@ button.close {
     max-width: 900px !important;
   }
 
-  /* line 36, ../sass/base/_base.scss */
+  /* line 37, ../sass/base/_base.scss */
   .pane-footer .row {
     max-width: 930px !important;
   }
 
-  /* line 37, ../sass/base/_base.scss */
+  /* line 38, ../sass/base/_base.scss */
   .pane-views-slideshow-block .carousel-inner {
     max-width: 780px !important;
   }
@@ -12334,10 +12334,14 @@ body.catalog #panel-bootstrap-region-content_top .pane-page-title h1:before {
   }
 }
 /* line 2, ../sass/modules/_checkout.scss */
-.page-checkout .street-block > .form-item-customer-profile-billing-commerce-customer-address-und-0-thoroughfare {
+.page-checkout .customer_profile_billing > .panel-body > .form-item-customer-profile-billing-addressbook {
   display: none;
 }
 /* line 5, ../sass/modules/_checkout.scss */
+.page-checkout .street-block > .form-item-customer-profile-billing-commerce-customer-address-und-0-thoroughfare {
+  display: none;
+}
+/* line 8, ../sass/modules/_checkout.scss */
 .page-checkout .address1 {
   clear: both;
 }
