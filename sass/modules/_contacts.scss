@@ -1,0 +1,170 @@
+
+.contact {
+  .contacts-info {
+      @include make-xs-column(12);
+      @include make-sm-column(8);
+      padding-left: 0;
+      padding-right: 0;
+      
+    h2 {
+      font-family: $font-stack;
+      font-size: 30px;
+      font-weight: 400;
+      color: #d34167;
+      border-bottom: 1px solid #c5498c;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+
+      span {
+        color: #4b4c4d;
+      } 
+    }
+
+    p {
+      color: black;
+      font-family: $font-stack;
+      font-size: 14px;
+      font-weight: 300;
+      margin-bottom: 35px;
+    }
+  }
+  .contacts-adress {
+    @include make-xs-column(12);
+    @include make-sm-column(4);
+    padding-right: 0;
+    padding-left: 0;
+    
+      h2 {
+        font-family: $font-stack;
+        font-size: 24px;
+        font-weight: 400;
+        color: #d34167;
+        border-bottom: 1px solid #c5498c;
+        margin-top: 34px;
+        margin-bottom: 15px;
+        padding-bottom: 8px;
+
+      span {
+        color: #4b4c4d;
+        margin-left: 130px;
+      } 
+    }
+    
+    .wrap {
+      color: black;
+      font-family: $font-stack;
+      font-size: 14px;
+      font-weight: 300;
+      margin-bottom: 25px;
+      position: relative;
+      padding-left: 40px;
+      margin-left: 130px;
+      
+      > span {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 0;
+      }
+      
+      &.address > span{
+        background: url(../images/nav.png) 0 no-repeat;
+      }
+
+      &.tel1 > span {
+        background: url(../images/tel1.png) 0 no-repeat;
+        top: -7px;
+      }
+
+      &.tel2 > span {
+        background: url(../images/tel2.png) 0 no-repeat;
+        top: -7px;
+      }
+
+      &.email > span{
+        background: url(../images/mail.png) 0 no-repeat;
+      } 
+    }
+  }
+  .contacts-form {
+    @include make-xs-column(12);
+    @include make-sm-column(8);
+    padding-left: 0;
+    padding-right: 0;
+    
+    label {
+        color: black;
+        font-family: $font-stack;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .form-item {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+      padding-right: 0;
+      padding-left: 0;
+
+      &:nth-child(2n+1) {
+        padding-left: 0;
+        padding-right: 10px;
+      }
+
+      &:nth-child(2n) {
+        padding-right: 0;
+        padding-left: 10px;
+      }
+
+      input {
+        border-radius: 0;
+        border-color: #6f6f6f;
+      }
+    }
+
+    .webform-component-textarea {
+      @include make-xs-column(12);
+      padding-left: 0;
+      padding-right: 0!important;
+      
+      textarea {
+        border-radius: 0;
+        border-color: #6f6f6f;
+      }
+      
+      .grippie {display: none;}
+    }
+    
+    .form-actions {
+      button {
+        float: right;
+        color: white;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 300;
+        background-color: #e62f59;
+        border: 1px solid white;
+        border-radius: 3px;
+      }
+    }
+  }
+  .map {float: right;}
+}
+
+@media screen and (max-width: 1600px) {
+  .contact .contacts-adress .wrap {margin-left: 80px;}
+  .contact .contacts-adress h2 span {margin-left: 80px;}
+  .map {overflow: hidden; max-width: 220px; }
+}
+
+@media screen and (max-width: 989px) {
+  .contact .contacts-adress .wrap {margin-left: 65px;}
+  .contact .contacts-adress h2 span {margin-left: 65px;}
+}
+
+@media screen and (max-width: 768px) {
+  .contact .contacts-adress .wrap {margin-left: 0;}
+  .contact .contacts-adress h2 span {margin-left: 0;}
+  .contact .map {float: left; overflow: visible; margin-bottom: 15px; }
+  .contact .contacts-form .webform-component-textfield {padding-right: 0;}
+  .contact .contacts-form .webform-component-email {padding-left: 0;}
+}

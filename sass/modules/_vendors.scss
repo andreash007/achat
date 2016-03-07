@@ -1,0 +1,28 @@
+.page-vendors {
+
+  .view-vendors {
+    margin-top: 30px;
+    @include make-row;
+
+    .views-row {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+      @include make-md-column(4);
+      @include make-lg-column(4);
+      
+      min-height: 180px;
+      text-align: center;
+      
+      .views-field-title {
+        color: #4371a9;
+        font-size: 16px;
+        font-weight: 300;
+        padding-top: 10px;          
+      }
+      
+      img {
+        margin: 0 auto
+      }
+    }
+  }
+}

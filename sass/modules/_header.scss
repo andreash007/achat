@@ -1,0 +1,146 @@
+// Header top
+.header-line {
+  margin: 0 -30px;
+  background: linear-gradient(to top, #93b1d5, #7197c6, #95b3d7);
+  font-family: $font-stack;
+  
+  .wrap {
+    float: none;
+    padding: 3px 0;
+    padding-bottom: 0;
+    @extend .container;
+  }
+  
+//Language block
+  .pane-locale-language {
+    @include make-xs-column(6);
+    @include make-sm-column(6);
+    @include make-md-column(3);
+    @include make-lg-column(4);
+    
+    margin-top: 0;
+    text-align: right;
+    
+    h2 {
+      color: white;
+      font-size: 16px;
+      font-weight: 100;
+      text-transform: lowercase;
+      display: inline-block;
+      padding-right: 8px;
+      margin-top: 0;
+      
+      @extend .hidden-xs;
+      @extend .hidden-sm;
+    }
+    .pane-content {
+      display: inline-block;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 5px;
+      
+      li {
+        display: inline-block;
+        padding-right: 5px;
+        margin-bottom: -5px;
+        
+        img {
+          width: 19px;
+          height: 15px;
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+  
+  
+  .slogan {
+    @extend .hidden-xs;
+    @extend .hidden-sm;
+    @include make-md-column(6);
+    @include make-lg-column(5);
+    
+    p {
+      color: #fefdfb;
+      font-family: $font-stack;
+      font-size: 14px;
+      font-weight: 100;
+    }
+  }
+  
+  .phone {
+    @include make-xs-column(6);
+    @include make-sm-column(6);
+    @include make-md-column(3);
+    @include make-lg-column(3);
+    
+    p {
+      color: #fefdfb;
+      font-family: $font-stack;
+      font-size: 14px;
+      font-weight: 100;
+      padding-left: 15px;
+      text-align: center;
+      margin-top: -6px;
+      
+      strong {
+        font-weight: 500;
+      }
+      
+      &:before {
+      font-family: FontAwesome;
+      content: '\f10b';
+      padding-right: 10px;
+      font-size: 19px;
+      position: relative;
+      top: 2px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:969px) {
+  .header-line {
+    .phone {
+      p {text-align: left;}
+    }
+  }
+}
+
+//Header bottom
+.header-group {
+  max-width: 1170px; 
+  margin: 0 auto;
+  
+  #panel-bootstrap-column-4 {
+    @extend .hidden-xs;
+    @extend .hidden-sm;
+  }
+  
+  #panel-bootstrap-region-logo {
+    margin-top: 18px;
+  
+    img {
+      max-width: 199px;
+      height: auto;
+    }
+  }
+}
+
+.not-logged-in {
+  .pane-system-main-menu .navbar {
+    margin-top: 20px;
+  }
+.header-group #panel-bootstrap-region-logo {
+    margin-top: 7px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .not-logged-in .pane-system-main-menu .navbar {
+  margin-top: 0;
+}
+}

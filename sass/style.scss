@@ -1,0 +1,35 @@
+// Import Compass integration
+@import 'compass';
+
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+// Import Modules Sass
+@import "variables";
+
+// Import Base style Sass
+@import "base/base";
+
+// Import Modules Sass
+@import "modules/news"; 
+@import "modules/footer";
+@import "modules/front";   
+@import "modules/header"; 
+@import "modules/cart";
+@import "modules/menu";  
+@import "modules/product"; 
+@import "modules/vendors";
+@import "modules/catalog";
+@import "modules/user";
+@import "modules/addressbook"; 
+@import "modules/contacts";
+@import "modules/solutions";
+@import "modules/checkout";
+@import "modules/_estore-submenu";
+@import "modules/_estore-page";

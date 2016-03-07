@@ -1,0 +1,53 @@
+.view-solutions {
+  text-align: center;
+  margin-top: 40px;
+  
+  img {
+    margin: 0 auto;
+  }
+  
+  .views-field-field-icon {
+    img {
+      width: 62px!important;
+      height: auto!important;
+    }
+  }
+  .attachment {
+      .views-row {
+        border: none;
+    }
+  }
+  
+  .views-field-title {
+    display: none;
+  }
+  .views-field-field-image {
+    margin-bottom: 10px;
+  }
+  
+  .views-field-name {
+    min-height: 60px;
+    padding-top: 5px;
+    
+    a {
+      color: #ee3761;
+      font-family: $font-stack;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
+
+.pane-views-solutions-en-block-1,
+.pane-views-solutions-en-block-2,
+.pane-views-solutions-en-block-3,
+.pane-views-solutions-en-block-4,
+.pane-views-solutions-en-block-5,
+.pane-views-solutions-en-block-6 {
+  @include make-xs-column(4);
+  @include make-sm-column(2);
+}
+
+@media screen and (max-width: 1600px) {
+  .view-solutions .views-field-name {min-height: 75px;}
+}

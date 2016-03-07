@@ -1,0 +1,393 @@
+.page-user-register {
+  .field-group-htabs-wrapper {
+    max-width: 489px;
+    .horizontal-tabs-list {display: none;}
+    .horizontal-tabs fieldset.horizontal-tabs-pane {position: static}
+  }
+}
+
+.page-user {
+  .field-group-htabs-wrapper {
+    max-width: 489px;
+    .horizontal-tabs {border: none;}
+    
+    .horizontal-tabs fieldset.horizontal-tabs-pane {padding: 0; margin-bottom: 0}
+    .panel-body {
+      padding: 0;
+      @include make-row;
+      
+      .form-item-pass {
+        > .control-label {display: none;}
+      }
+      .field-type-list-boolean {
+        @include make-xs-column(12);
+      }
+      
+      .field-name-field-reseller {
+        @include make-xs-column(12);
+         div.dropdawn {display: none!important;}
+        
+        .input-group {
+          width: 100%;
+          .form-control {
+            border-radius: 3px!important;
+          }
+          .input-group-addon {display: none;}
+        }
+      }
+      .field-name-field-first-name {
+        @include make-xs-column(12);
+        @include make-sm-column(6);
+      }
+      
+      .field-name-field-last-name {
+        @include make-xs-column(12);
+        @include make-sm-column(6);
+      }
+      
+      .field-name-field-countries {
+        @include make-xs-column(12);
+        @include make-sm-column(6);
+      }
+      
+      .field-name-field-phone-number {
+        @include make-xs-column(12);
+        @include make-sm-column(6);  
+      }
+      
+      .form-item-mail {
+        @include make-xs-column(12);
+        z-index: 999;
+      }
+      
+      .form-item-pass-pass1 {
+        @include make-xs-column(12);
+        @include make-sm-column(6);
+        padding-left: 30px;
+        padding-right: 0;
+      }
+      .form-item-pass-pass2{
+        @include make-xs-column(12);
+        @include make-sm-column(6);
+        padding-left: 30px;
+        padding-right: 0px;
+        clear: none;
+      }
+      
+      .help-block.password-help {display: none!important;}
+    }
+  }
+  
+  .pane-page-tabs {
+    .tabs--primary {
+      border-bottom: 0;
+      margin-bottom: 25px;
+      
+      li {
+        min-width: 130px;
+        text-align: center;
+        a{
+          border: none;
+          border-radius: 3px;
+          background-color: #abc4de;
+          margin-right: 15px;
+          color: black;
+          font-family: $font-stack;
+          font-size: 15px;
+          font-weight: 100;
+          padding: 5px 15px;
+        }
+        
+        &.active a, &:hover a {
+          background-color: #eb2956;
+          color: white;
+        }
+      }
+    }
+  }
+  .pane-page-content {
+    .form-item-name {
+      max-width: 489px;
+    }
+    .form-item-pass {
+    max-width: 489px;
+    }
+    #edit-actions {
+      #edit-submit {
+        @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border)
+      }
+    }
+  }
+}
+
+.page-user-edit {
+  .pane-pane-messages {
+    .tabs--secondary {
+      li:last-child a{
+        border-radius: 0;
+      }
+    }
+  }
+  
+  .field-group-htabs-wrapper {
+    .horizontal-tabs {
+      .horizontal-tabs-list {
+        background: none;
+        border: none;
+        position: absolute;
+        top: -55px;
+        left: 151px;
+        
+        .first {display: none;}
+        .horizontal-tab-button {
+          border:none;
+          padding: 0;
+          
+          &.selected {
+            a {
+              background-color: #337ab7;
+              border-color: #337ab7;
+              color: white;
+              
+              &:hover {
+                background-color: #337ab7;
+                border-color: #337ab7;
+              }
+              strong {color: white;}
+              span {display: none;}
+            }
+          }
+          
+          a {
+            font-size: 12px;
+            line-height: 1.5;
+            font-weight: 100;
+            color: #337ab7;
+            padding: 5px 10px;
+            border-bottom-right-radius: 3px;
+            border-top-right-radius: 3px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-left: none;
+            
+            &:hover {
+              background-color: #eee;
+            }
+            
+            span {display: none;}
+            strong{
+              font-weight: 100;
+              color: #337ab7;
+            }
+          }
+        }
+      }  
+    }
+    
+    .field-name-field-tobe-reseller {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+    }
+    
+    .field-name-field-first-name {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+    }
+    .field-name-field-last-name {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+    }
+    .field-name-field-phone-number {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+    }
+    .field-name-field-address-1 {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+    }
+    .field-name-field-address-2 {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+    }
+    .field-name-field-postal-code {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+    }
+    .field-name-field-city {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+    }
+    .field-name-field-countries {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+    }
+    .field-name-field-vat-number {
+      @include make-xs-column(12);
+    }
+    .form-item-name {
+      @include make-sm-column(6);
+    }
+    .form-item-current-pass {
+      @include make-sm-column(6);
+    }
+    
+    .form-item-pass {
+      clear: both;
+      margin-left: 15px;
+      padding-bottom: 15px;
+      .form-item-pass-pass1 {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 0;
+        
+      }
+      
+      .form-item-pass-pass2 {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+    
+    .form-item-status{
+      @include make-xs-column(12);
+    }
+    .form-item-roles {
+      @include make-xs-column(12);
+      padding-bottom: 15px;
+      
+      #edit-roles {
+        padding-left: 15px;
+      }
+    }
+    
+    #edit-locale, #edit-locale--2 {
+      @include make-xs-column(12);
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 489px;
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 20px;
+      
+      > .panel-heading {
+        display: none;
+      }
+      .panel-body {
+        margin: 0;
+        padding: 15px;
+      }
+    }
+    
+    #edit-metatags {
+      @include make-xs-column(12);
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 489px;
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 20px;
+      
+      .panel-body {
+        padding: 10px 30px;
+      }
+      
+    }
+    
+    #edit-ckeditor {
+      @include make-xs-column(12);
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 489px;
+      margin: 0 auto;
+      float: none;
+      margin-bottom: 20px;
+      
+      .panel-body {
+        padding: 10px 30px;
+      }
+    }
+  }
+  
+  
+  #edit-field-company-fr-und-0 {
+    border: none;
+    @include make-xs-column(12);
+    > .panel-heading {display: none;}
+    > .panel-heading {
+      margin-top: 25px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+    }
+    
+    > .panel-body {
+      margin-left: 0;
+      margin-right: 0;
+      
+      .group-column1 {
+        @include make-xs-column(12);
+        @include make-sm-column(6);
+        padding-left: 0;
+        padding-bottom: 20px;
+        
+        h3 {font-size: 19px;}
+      }
+      .group-column2 {
+        @include make-xs-column(12);
+        @include make-sm-column(6);
+        padding-right: 0;
+        padding-bottom: 20px;
+        
+        h3 {
+          font-size: 19px;
+        }
+      }
+      
+      .group-request-progress {
+        @include make-xs-column(12);
+        padding-left: 0;
+        padding-right: 0;
+      }
+      
+      .field-name-field-en-cours-demande {
+        @include make-xs-column(12);
+        padding-left: 0;
+        padding-right: 0; 
+      }
+      
+      .field-name-field-payment-period {
+        @include make-xs-column(12);
+        padding-left: 0;
+        padding-right: 0;
+        
+        .control-label {
+          padding-bottom: 10px;
+        }
+        
+        .form-item.form-type-radio:first-child {display: none;}
+      }
+      
+      .group-following-documents {
+        @include make-xs-column(12);
+        padding-left: 0;
+        padding-right: 0;
+        
+        .field-type-file {
+          @include make-xs-column(12);
+          @include make-sm-column(6);
+          padding-bottom: 20px;
+          
+          &#edit-field-company-fr-und-0-field-extrait-kbis- {
+            padding-left: 0;
+          }
+          &#edit-field-company-fr-und-0-field-relev-bancaire {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-user, .page-user-register { 
+  .field-name-field-reseller .dropdown {display: none!important;}
+}

@@ -1,0 +1,34 @@
+// User Add/Edit profile page
+.page-user-edit,
+.page-user-register {
+  .field-name-field-billing-register {
+    display: none;
+  }
+}
+
+// Address Book user profile page
+.page-user-addressbook {
+  .view-user-addressbook {
+    h3{
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    .img-responsive {
+      display: inline-block;
+      float: left;
+    }
+  }
+}
+
+// User never can see global field
+.field-name-field-global {
+  display: none;
+}
+
+// Single an Address Book edit page
+.page-admin-commerce-customer-profiles-edit {
+  .field-name-field-end-customer,
+  .vertical-tabs.tabs-left {
+    display: none;
+  }
+}

@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+.header {
+  width: 100%;
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 25px;
+
+  // Logo
+  img {
+    width: 400px;
+    height: auto;
+  }
+  .invoice-number,
+  .invoice-header-date {
+    text-align: center;
+    float: right;
+    position: absolute;
+  }
+  .invoice-number {
+    width: 150px;
+    right: 50px;
+    top: 10px;
+  }
+  .invoice-header-date {
+    width: 200px;
+    right: 25px;
+    top: 50px;
+  }
+}
+
+.invoice-header {
+  font-size: 14px;
+  color: #646464;
+  text-align: right;
+}
+
+.billing {
+  border: 2px solid #b9b9b9;
+  font-size: 12px; 
+
+  .billing-header {
+    font-weight: bold;
+    background: #cccccc;
+    padding: 5px;
+  }
+  .customer {
+    padding: 5px;
+
+    & > div > div {
+      font-size: 0;
+
+      div {
+        font-size: 12px;
+
+        & > div > div > div:first-child > div:first-child {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.line-items {
+  margin-top: 100px;
+
+  .view-commerce-line-item-table {
+    table {
+      @extend .billing;
+      width: 100%;
+      line-height: 1.2em;
+      border-collapse: collapse;
+    
+      thead th {
+        @extend .billing-header;
+        text-align: center;
+      }    
+
+      td {
+        @extend .customer;
+        text-align: center;
+        height: 30px;
+        border-bottom: 1px solid #e7e7e7;
+      }    
+
+      .views-field-commerce-total {
+        text-align: right;
+        width: 200px;
+      }
+
+      .views-field-line-item-title-1 {
+        text-align: left;
+        width: 300px;
+      }
+
+      .views-field-line-item-label {
+        display: none;
+      }
+    }
+  }
+
+.order-total table {
+  font-weight: bold;
+  width: 100%;
+
+    td.component-title {
+      text-align: right;
+      padding-right: 5px;
+      font-size: 12px;
+    }
+
+    td.component-total {
+      text-align: right;
+      width: 80px;
+      background: #cccccc;
+    }  
+  }
+}
+
+
+.text {
+  position: absolute;
+  top: 300px;
+}
+
+.invoice-footer {
+  border-top: 1px solid #e0e0e0;
+  width: 100%;
+  font-size: 10px;
+  color: #1d1d25;
+  text-align: center;
+  padding-top: 4px;
+  position: absolute;
+  bottom: 0;
+}
+
+.invoice-text {
+  margin-top: 50px;
+}
+
+.contextual-links-wrapper {
+  display: none;
+}
+
+.invoice-canceled .order-total table {
+  border: 2px solid black;
+  margin-top: 100px;
+}
+
+.customer .street-block {
+  overflow: hidden;
+
+  div.thoroughfare {
+    margin-left: -10px;
+  }
+}
+
+.field-name-field-global {display: none;}

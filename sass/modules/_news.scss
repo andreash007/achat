@@ -1,0 +1,236 @@
+//Front page News
+.front .pane-views-news-news-block {
+  @extend .container;
+  
+  padding-left: 0;
+  padding-right: 0;
+  
+  h2 {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #4371a9;
+    font-family: $font-stack;
+    font-size: 24px;
+    font-weight: 100;
+    
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 45px;
+      height: 35px;
+      background: url(../images/cloud.png) no-repeat;
+      background-size: contain;
+      margin-right: 6px;
+      margin-bottom: -10px;
+      color: #fff;
+    }
+  }
+  .views-row {
+    min-height: 380px;
+  }
+  
+  .views-row:last-child{
+    @extend .hidden-sm
+  }
+}
+@media screen and (max-width: 1599px) and (min-width:991px) {
+  front .pane-views-news-news-block .views-row {
+    min-height: 340px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+   front .pane-views-news-news-block .views-row {
+    min-height: 350px;
+  }
+}
+
+//All style News
+.view-news {
+  font-family: $font-stack;
+  
+  .view-content {
+    
+    @include make-row;
+    @include center-block()
+  }
+  
+  .views-row {
+    @include make-xs-column(12);
+    @include make-sm-column(6);
+    @include make-md-column(4);
+    @include make-lg-column(4);
+    
+    min-height: 340px;
+    position: relative;
+  }
+
+  .views-field-field-image {
+    img {
+      @include center-block()
+    }
+  }
+  
+  .views-field-title {
+    color: #4371a9;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    a {text-decoration: none;}
+    
+  } 
+  
+  .views-field-body {
+    color: black;
+    font-size: 11px;
+    font-weight: 300;
+    
+    p {margin: 0;}
+  }
+  
+  .views-field-view-node {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    
+    a {
+      color: #4371a9;
+      font-size: 13px;
+      font-weight: 300;
+    }
+  }
+}
+@media screen and (min-width:1600px){
+  .view-news .views-row {
+    min-height: 355px;
+  }
+}
+
+@media screen and (max-width:690px){
+  .view-news .views-row {
+    min-height: 360px;
+  }
+}
+
+@media screen and (max-width:450px){
+  .view-news .views-row {
+    min-height: 340px;
+  }
+}
+
+@media screen and (max-width:380px){
+  .view-news .views-row {
+    min-height: 320px;
+  }
+}
+
+//Single page
+.node-news {
+  padding-bottom: 40px;
+    
+  @include center-block();
+  
+  .field-type-image {
+    img {
+      padding-top: 15px;
+      padding-bottom: 30px;
+      
+      @include center-block();
+    }
+  }
+  
+  .field-type-text-with-summary {
+    font-family: $font-stack;
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+//Blog page 
+.page-blog {
+  .view-news {
+    .views-row {
+      @include make-xs-column(12);
+    }
+    
+    .views-field-title {
+      padding-bottom: 4px;
+    }
+    
+    .views-field-created {
+      color: #767676;
+      font-size: 13px;
+      padding-bottom: 2px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ddd9da;
+    }
+    
+    .views-field-body {
+      @include make-xs-column(8);
+      padding-left: 0;
+    }
+    
+    .views-field-field-image {
+      @include make-xs-column(4);
+    }
+    .views-field-view-node {
+      @include make-xs-column(12);
+      position: relative;
+      text-align: left;
+      padding-left: 10px;
+      padding-top: 30px;
+      
+    }
+  }
+  
+  .blog-wrap {
+    > .pane-page-content {
+      @include make-xs-column(12);  
+      @include make-sm-column(9);  
+    }
+  }
+  .pane-simplenews-60 {
+    @include make-xs-column(12);
+    @include make-sm-column(3);
+    
+    .pane-title {
+      color: #4a85bf;
+      font-size: 15px;
+      font-weight: 300;
+      font-family: "Roboto",sans-serif;
+      padding-top: 8px;
+      padding-bottom: 12px;
+    }
+    .simplenews-subscribe {
+      .control-label {
+        display: none;
+      }
+      .form-control {
+        height: 25px;
+        border: 1px solid #4a85bf;
+        max-width: 160px;
+        margin: 0 auto;
+      }
+      #edit-submit {
+        display: block;
+        width: 100%;
+        max-width: 110px;
+        margin: 0 auto;
+        background: #abc3dd;
+        color: white;
+        border: none;
+        padding: 3px 12px;
+        font-size: 15px;
+      }
+    }
+  }
+  
+}

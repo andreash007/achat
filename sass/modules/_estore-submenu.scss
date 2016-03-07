@@ -1,0 +1,106 @@
+.view-estore {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+
+  >.attachment {
+    display: table-cell;
+    
+    .row-wrapper {
+      display: inline-block!important;
+      border-left: 1px solid #d1d1d1!important;
+      margin-right: -1px;
+      width: 100%!important;
+    }
+  }
+  
+  >.view-content {
+    display: table-cell;
+  }
+  
+  .view-content {
+    @include make-row;
+    text-align: center;
+    
+    .row-wrapper {
+      display: inline-block;
+      padding: 0 20px;
+      vertical-align: top;
+      border: 1px solid #d1d1d1;
+      border-bottom: 3px solid #7E7C7D;
+      border-left: none;
+      width: 20%;
+      position: relative;
+      
+      &:hover {
+        background: #7E7C7D;
+        >h3 {
+          color: white;
+          
+          >a {
+            color:white;
+          }
+        }
+      }
+      
+      h3 {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-size: 19px;
+        font-weight: 100;
+        white-space: nowrap;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #333; 
+        
+        a {
+          color: #333;
+          
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+      
+      .row-content {
+        display: none;
+        position: absolute;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        
+        .views-row {
+          display: list-item;
+          text-align: left;
+          color: #e7375e;
+        }
+        
+        a {
+          font-size: 13px;
+          color: #777;
+          margin-left: -5px;
+          white-space: nowrap;
+        }
+      }
+      
+      &:hover {
+          
+        .row-content {
+          z-index: 999;
+          padding-top: 10px;
+          display: block!important;
+          background: white;
+          border: 1px solid #ccc;
+          border: 1px solid rgba(0,0,0,0.15);
+          border-radius: 0 0 4px 4px;
+          -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+          box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+          background-clip: padding-box;
+          top: 33px;
+          left: 0;
+          min-width: 100%;
+          width: auto;
+        }
+      }
+    }
+  }
+}
