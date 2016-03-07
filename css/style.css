@@ -2349,36 +2349,36 @@ pre code {
 }
 
 /* line 10, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_grid.scss */
-.container, .front .pane-views-news-news-block, .header-line .wrap {
+.container, .header-line .wrap, .front .pane-views-news-news-block {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 /* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.container:before, .front .pane-views-news-news-block:before, .header-line .wrap:before, .container:after, .front .pane-views-news-news-block:after, .header-line .wrap:after {
+.container:before, .header-line .wrap:before, .front .pane-views-news-news-block:before, .container:after, .header-line .wrap:after, .front .pane-views-news-news-block:after {
   content: " ";
   display: table;
 }
 /* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.container:after, .front .pane-views-news-news-block:after, .header-line .wrap:after {
+.container:after, .header-line .wrap:after, .front .pane-views-news-news-block:after {
   clear: both;
 }
 @media (min-width: 768px) {
   /* line 10, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_grid.scss */
-  .container, .front .pane-views-news-news-block, .header-line .wrap {
+  .container, .header-line .wrap, .front .pane-views-news-news-block {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
   /* line 10, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_grid.scss */
-  .container, .front .pane-views-news-news-block, .header-line .wrap {
+  .container, .header-line .wrap, .front .pane-views-news-news-block {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
   /* line 10, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_grid.scss */
-  .container, .front .pane-views-news-news-block, .header-line .wrap {
+  .container, .header-line .wrap, .front .pane-views-news-news-block {
     width: 1170px;
   }
 }
@@ -5712,10 +5712,10 @@ tbody.collapse.in {
 }
 
 /* line 108, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
-.container > .navbar-header, .front .pane-views-news-news-block > .navbar-header, .header-line .wrap > .navbar-header,
+.container > .navbar-header, .header-line .wrap > .navbar-header, .front .pane-views-news-news-block > .navbar-header,
 .container > .navbar-collapse,
-.front .pane-views-news-news-block > .navbar-collapse,
 .header-line .wrap > .navbar-collapse,
+.front .pane-views-news-news-block > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
@@ -5723,10 +5723,10 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
   /* line 108, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
-  .container > .navbar-header, .front .pane-views-news-news-block > .navbar-header, .header-line .wrap > .navbar-header,
+  .container > .navbar-header, .header-line .wrap > .navbar-header, .front .pane-views-news-news-block > .navbar-header,
   .container > .navbar-collapse,
-  .front .pane-views-news-news-block > .navbar-collapse,
   .header-line .wrap > .navbar-collapse,
+  .front .pane-views-news-news-block > .navbar-collapse,
   .container-fluid > .navbar-header,
   .container-fluid > .navbar-collapse {
     margin-right: 0;
@@ -5793,7 +5793,7 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
   /* line 180, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar > .container .navbar-brand, .front .navbar > .pane-views-news-news-block .navbar-brand, .header-line .navbar > .wrap .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  .navbar > .container .navbar-brand, .header-line .navbar > .wrap .navbar-brand, .front .navbar > .pane-views-news-news-block .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
   }
 }
@@ -6604,13 +6604,13 @@ a.badge:hover, a.badge:focus {
   border-top-color: #d5d5d5;
 }
 /* line 28, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_jumbotron.scss */
-.container .jumbotron, .front .pane-views-news-news-block .jumbotron, .header-line .wrap .jumbotron, .container-fluid .jumbotron {
+.container .jumbotron, .header-line .wrap .jumbotron, .front .pane-views-news-news-block .jumbotron, .container-fluid .jumbotron {
   border-radius: 6px;
   padding-left: 15px;
   padding-right: 15px;
 }
 /* line 35, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_jumbotron.scss */
-.jumbotron .container, .jumbotron .front .pane-views-news-news-block, .front .jumbotron .pane-views-news-news-block, .jumbotron .header-line .wrap, .header-line .jumbotron .wrap {
+.jumbotron .container, .jumbotron .header-line .wrap, .header-line .jumbotron .wrap, .jumbotron .front .pane-views-news-news-block, .front .jumbotron .pane-views-news-news-block {
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -6620,7 +6620,7 @@ a.badge:hover, a.badge:focus {
     padding-bottom: 48px;
   }
   /* line 43, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_jumbotron.scss */
-  .container .jumbotron, .front .pane-views-news-news-block .jumbotron, .header-line .wrap .jumbotron, .container-fluid .jumbotron {
+  .container .jumbotron, .header-line .wrap .jumbotron, .front .pane-views-news-news-block .jumbotron, .container-fluid .jumbotron {
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -8715,7 +8715,7 @@ button.close {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 18, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .hidden-sm, .front .pane-views-news-news-block .views-row:last-child, .header-line .pane-locale-language h2, .header-line .slogan, .header-group #panel-bootstrap-column-4 {
+  .hidden-sm, .header-line .pane-locale-language h2, .header-line .slogan, .header-group #panel-bootstrap-column-4, .front .pane-views-news-news-block .views-row:last-child {
     display: none !important;
   }
 }
@@ -8829,7 +8829,7 @@ button.close {
 
 @media screen and (max-width: 1600px) {
   /* line 31, ../sass/base/_base.scss */
-  .container, .front .pane-views-news-news-block, .header-line .wrap,
+  .container, .header-line .wrap, .front .pane-views-news-news-block,
   .header-group,
   #node-content h1,
   #node-content p, .catalog-prod {
@@ -8846,77 +8846,23 @@ button.close {
     max-width: 780px !important;
   }
 }
-/* line 2, ../sass/modules/_news.scss */
-.front .pane-views-news-news-block {
-  padding-left: 0;
-  padding-right: 0;
-}
-/* line 8, ../sass/modules/_news.scss */
-.front .pane-views-news-news-block h2 {
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  color: #4371a9;
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  font-weight: 100;
-}
-/* line 18, ../sass/modules/_news.scss */
-.front .pane-views-news-news-block h2:before {
-  content: "";
-  display: inline-block;
-  width: 45px;
-  height: 35px;
-  background: url(../images/cloud.png) no-repeat;
-  background-size: contain;
-  margin-right: 6px;
-  margin-bottom: -10px;
-  color: #fff;
-}
-/* line 30, ../sass/modules/_news.scss */
-.front .pane-views-news-news-block .views-row {
-  min-height: 380px;
-}
-
-@media screen and (max-width: 1599px) and (min-width: 991px) {
-  /* line 39, ../sass/modules/_news.scss */
-  front .pane-views-news-news-block .views-row {
-    min-height: 340px;
-  }
-}
-@media screen and (max-width: 380px) {
-  /* line 45, ../sass/modules/_news.scss */
-  front .pane-views-news-news-block .views-row {
-    min-height: 350px;
-  }
-}
-/* line 51, ../sass/modules/_news.scss */
-.view-news {
+/* line 2, ../sass/modules/_header.scss */
+.header-line {
+  margin: 0 -30px;
+  background: linear-gradient(to top, #93b1d5, #7197c6, #95b3d7);
   font-family: "Roboto", sans-serif;
 }
-/* line 54, ../sass/modules/_news.scss */
-.view-news .view-content {
-  margin-left: -15px;
-  margin-right: -15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+/* line 7, ../sass/modules/_header.scss */
+.header-line .wrap {
+  float: none;
+  padding: 3px 0;
+  padding-bottom: 0;
 }
-/* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.view-news .view-content:before, .view-news .view-content:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.view-news .view-content:after {
-  clear: both;
-}
-/* line 60, ../sass/modules/_news.scss */
-.view-news .views-row {
+/* line 15, ../sass/modules/_header.scss */
+.header-line .pane-locale-language {
   position: relative;
   float: left;
-  width: 100%;
+  width: 50%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -8932,245 +8878,393 @@ button.close {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  min-height: 340px;
-  position: relative;
+  margin-top: 0;
+  text-align: right;
 }
 @media (min-width: 768px) {
-  /* line 60, ../sass/modules/_news.scss */
-  .view-news .views-row {
+  /* line 15, ../sass/modules/_header.scss */
+  .header-line .pane-locale-language {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 992px) {
-  /* line 60, ../sass/modules/_news.scss */
-  .view-news .views-row {
-    float: left;
-    width: 33.33333333%;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 60, ../sass/modules/_news.scss */
-  .view-news .views-row {
-    float: left;
-    width: 33.33333333%;
-  }
-}
-/* line 71, ../sass/modules/_news.scss */
-.view-news .views-field-field-image img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 76, ../sass/modules/_news.scss */
-.view-news .views-field-title {
-  color: #4371a9;
-  font-size: 15px;
-  font-weight: 300;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-/* line 83, ../sass/modules/_news.scss */
-.view-news .views-field-title a {
-  text-decoration: none;
-}
-/* line 87, ../sass/modules/_news.scss */
-.view-news .views-field-body {
-  color: black;
-  font-size: 11px;
-  font-weight: 300;
-}
-/* line 92, ../sass/modules/_news.scss */
-.view-news .views-field-body p {
-  margin: 0;
-}
-/* line 95, ../sass/modules/_news.scss */
-.view-news .views-field-view-node {
-  text-align: right;
-  padding-right: 10px;
-  padding-top: 20px;
-  position: absolute;
-  right: 10px;
-  bottom: 30px;
-}
-/* line 103, ../sass/modules/_news.scss */
-.view-news .views-field-view-node a {
-  color: #4371a9;
-  font-size: 13px;
-  font-weight: 300;
-}
-
-@media screen and (min-width: 1600px) {
-  /* line 111, ../sass/modules/_news.scss */
-  .view-news .views-row {
-    min-height: 355px;
-  }
-}
-@media screen and (max-width: 690px) {
-  /* line 117, ../sass/modules/_news.scss */
-  .view-news .views-row {
-    min-height: 360px;
-  }
-}
-@media screen and (max-width: 450px) {
-  /* line 123, ../sass/modules/_news.scss */
-  .view-news .views-row {
-    min-height: 340px;
-  }
-}
-@media screen and (max-width: 380px) {
-  /* line 129, ../sass/modules/_news.scss */
-  .view-news .views-row {
-    min-height: 320px;
-  }
-}
-/* line 135, ../sass/modules/_news.scss */
-.node-news {
-  padding-bottom: 40px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 141, ../sass/modules/_news.scss */
-.node-news .field-type-image img {
-  padding-top: 15px;
-  padding-bottom: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 149, ../sass/modules/_news.scss */
-.node-news .field-type-text-with-summary {
-  font-family: "Roboto", sans-serif;
-  color: #3a3a3a;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-/* line 160, ../sass/modules/_news.scss */
-.page-blog .view-news .views-row {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-/* line 164, ../sass/modules/_news.scss */
-.page-blog .view-news .views-field-title {
-  padding-bottom: 4px;
-}
-/* line 168, ../sass/modules/_news.scss */
-.page-blog .view-news .views-field-created {
-  color: #767676;
-  font-size: 13px;
-  padding-bottom: 2px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ddd9da;
-}
-/* line 176, ../sass/modules/_news.scss */
-.page-blog .view-news .views-field-body {
-  position: relative;
-  float: left;
-  width: 66.66666667%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-left: 0;
-}
-/* line 181, ../sass/modules/_news.scss */
-.page-blog .view-news .views-field-field-image {
-  position: relative;
-  float: left;
-  width: 33.33333333%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-/* line 184, ../sass/modules/_news.scss */
-.page-blog .view-news .views-field-view-node {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 30px;
-}
-/* line 195, ../sass/modules/_news.scss */
-.page-blog .blog-wrap > .pane-page-content {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  /* line 195, ../sass/modules/_news.scss */
-  .page-blog .blog-wrap > .pane-page-content {
-    float: left;
-    width: 75%;
-  }
-}
-/* line 200, ../sass/modules/_news.scss */
-.page-blog .pane-simplenews-60 {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  /* line 200, ../sass/modules/_news.scss */
-  .page-blog .pane-simplenews-60 {
+  /* line 15, ../sass/modules/_header.scss */
+  .header-line .pane-locale-language {
     float: left;
     width: 25%;
   }
 }
-/* line 204, ../sass/modules/_news.scss */
-.page-blog .pane-simplenews-60 .pane-title {
-  color: #4a85bf;
-  font-size: 15px;
-  font-weight: 300;
-  font-family: "Roboto",sans-serif;
-  padding-top: 8px;
-  padding-bottom: 12px;
+@media (min-width: 1200px) {
+  /* line 15, ../sass/modules/_header.scss */
+  .header-line .pane-locale-language {
+    float: left;
+    width: 33.33333333%;
+  }
 }
-/* line 213, ../sass/modules/_news.scss */
-.page-blog .pane-simplenews-60 .simplenews-subscribe .control-label {
+/* line 24, ../sass/modules/_header.scss */
+.header-line .pane-locale-language h2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: lowercase;
+  display: inline-block;
+  padding-right: 8px;
+  margin-top: 0;
+}
+/* line 36, ../sass/modules/_header.scss */
+.header-line .pane-locale-language .pane-content {
+  display: inline-block;
+}
+/* line 40, ../sass/modules/_header.scss */
+.header-line .pane-locale-language ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 5px;
+}
+/* line 45, ../sass/modules/_header.scss */
+.header-line .pane-locale-language ul li {
+  display: inline-block;
+  padding-right: 5px;
+  margin-bottom: -5px;
+}
+/* line 50, ../sass/modules/_header.scss */
+.header-line .pane-locale-language ul li img {
+  width: 19px;
+  height: 15px;
+  border-radius: 3px;
+}
+/* line 60, ../sass/modules/_header.scss */
+.header-line .slogan {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  /* line 60, ../sass/modules/_header.scss */
+  .header-line .slogan {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 60, ../sass/modules/_header.scss */
+  .header-line .slogan {
+    float: left;
+    width: 41.66666667%;
+  }
+}
+/* line 66, ../sass/modules/_header.scss */
+.header-line .slogan p {
+  color: #fefdfb;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+/* line 74, ../sass/modules/_header.scss */
+.header-line .phone {
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 74, ../sass/modules/_header.scss */
+  .header-line .phone {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 74, ../sass/modules/_header.scss */
+  .header-line .phone {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 74, ../sass/modules/_header.scss */
+  .header-line .phone {
+    float: left;
+    width: 25%;
+  }
+}
+/* line 80, ../sass/modules/_header.scss */
+.header-line .phone p {
+  color: #fefdfb;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  padding-left: 15px;
+  text-align: center;
+  margin-top: -6px;
+}
+/* line 89, ../sass/modules/_header.scss */
+.header-line .phone p strong {
+  font-weight: 500;
+}
+/* line 93, ../sass/modules/_header.scss */
+.header-line .phone p:before {
+  font-family: FontAwesome;
+  content: '\f10b';
+  padding-right: 10px;
+  font-size: 19px;
+  position: relative;
+  top: 2px;
+}
+
+@media screen and (max-width: 969px) {
+  /* line 108, ../sass/modules/_header.scss */
+  .header-line .phone p {
+    text-align: left;
+  }
+}
+/* line 114, ../sass/modules/_header.scss */
+.header-group {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* line 123, ../sass/modules/_header.scss */
+.header-group #panel-bootstrap-region-logo {
+  margin-top: 18px;
+}
+/* line 126, ../sass/modules/_header.scss */
+.header-group #panel-bootstrap-region-logo img {
+  max-width: 199px;
+  height: auto;
+}
+
+/* line 134, ../sass/modules/_header.scss */
+.not-logged-in .pane-system-main-menu .navbar {
+  margin-top: 20px;
+}
+/* line 137, ../sass/modules/_header.scss */
+.not-logged-in .header-group #panel-bootstrap-region-logo {
+  margin-top: 7px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 143, ../sass/modules/_header.scss */
+  .not-logged-in .pane-system-main-menu .navbar {
+    margin-top: 0;
+  }
+}
+/* line 1, ../sass/modules/_menu.scss */
+.pane-system-main-menu {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 5, ../sass/modules/_menu.scss */
+.pane-system-main-menu .container-fluid {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 13, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar {
+  background: none;
+  border: none;
+  margin-bottom: 0;
+  margin-top: 28px;
+  min-height: auto;
+}
+/* line 20, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar .navbar-nav {
+  float: none;
+  display: table;
+  margin: 0 auto;
+}
+/* line 26, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar li {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  border-right: 1px solid #95b3d7;
+  line-height: 20px;
+}
+/* line 33, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar li.last {
+  border: none;
+}
+/* line 37, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar li.open a {
+  background: none !important;
+}
+/* line 41, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar li.active a {
+  background: none;
+}
+/* line 44, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar li.active a:hover {
+  background: none;
+  color: #eb1244;
+}
+/* line 51, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar li .dropdown-menu li:hover a {
+  background: none;
+}
+/* line 54, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar li .caret {
   display: none;
 }
-/* line 216, ../sass/modules/_news.scss */
-.page-blog .pane-simplenews-60 .simplenews-subscribe .form-control {
-  height: 25px;
-  border: 1px solid #4a85bf;
-  max-width: 160px;
-  margin: 0 auto;
+/* line 59, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar li a {
+  color: black;
+  padding: 0 10px;
+  font-weight: 100;
+  background: none;
 }
-/* line 222, ../sass/modules/_news.scss */
-.page-blog .pane-simplenews-60 .simplenews-subscribe #edit-submit {
-  display: block;
-  width: 100%;
-  max-width: 110px;
-  margin: 0 auto;
-  background: #abc3dd;
-  color: white;
-  border: none;
-  padding: 3px 12px;
-  font-size: 15px;
+/* line 65, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar li a:hover {
+  color: #eb1244;
+}
+/* line 69, ../sass/modules/_menu.scss */
+.pane-system-main-menu .navbar li .nolink {
+  color: black;
+  padding: 0 10px;
+  font-weight: 100;
+  background: none;
+  height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 81, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar {
+    margin-top: 0;
+  }
+
+  /* line 84, ../sass/modules/_menu.scss */
+  .navbar-header {
+    background: #515558;
+  }
+
+  /* line 85, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li {
+    border: none;
+    padding: 5px 0;
+  }
+
+  /* line 86, ../sass/modules/_menu.scss */
+  .navbar-collapse.in {
+    overflow: visible;
+  }
+
+  /* line 88, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li.dropdown > .dropdown-menu > li > a {
+    color: black !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 94, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* line 98, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu {
+    width: 500px;
+    left: -170px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  /* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu:before, .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu:before, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu:before, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu:before, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu:before, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu:after {
+    content: " ";
+    display: table;
+  }
+  /* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu:after {
+    clear: both;
+  }
+  /* line 103, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu > li > a, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu > li > a, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu > li > a, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu > li > a, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu > li > a {
+    text-transform: uppercase;
+    color: #ff315f;
+  }
+  /* line 108, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu .dropdown-submenu {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 768px) {
+  /* line 108, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu .dropdown-submenu {
+    float: left;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 111, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu .dropdown-submenu .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu .dropdown-submenu .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu .dropdown-submenu .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu .dropdown-submenu .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu .dropdown-submenu .dropdown-menu {
+    position: relative;
+    border: none;
+    box-shadow: none;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin-top: -5px;
+  }
+  /* line 120, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu .dropdown-submenu .dropdown-menu li, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu .dropdown-submenu .dropdown-menu li, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu .dropdown-submenu .dropdown-menu li, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu .dropdown-submenu .dropdown-menu li, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu .dropdown-submenu .dropdown-menu li {
+    border-right: none;
+    color: #7c7878;
+    font-size: 16px;
+  }
+
+  /* line 131, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu {
+    left: -160px;
+  }
+
+  /* line 133, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu {
+    left: -169px;
+  }
+
+  /* line 134, ../sass/modules/_menu.scss */
+  .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu {
+    left: -169px;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1600px) {
+  /* line 139, ../sass/modules/_menu.scss */
+  .pane-system-main-menu {
+    margin-right: -45px;
+  }
+}
+@media screen and (min-width: 1601px) {
+  /* line 144, ../sass/modules/_menu.scss */
+  .pane-system-main-menu {
+    margin-right: -20px;
+  }
+}
+/* line 150, ../sass/modules/_menu.scss */
+.not-logged-in.page-user-login.i18n-en .pane-content .form-item-name label {
+  width: 46px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /* line 3, ../sass/modules/_footer.scss */
@@ -9548,23 +9642,77 @@ body {
   font-weight: 400;
 }
 
-/* line 2, ../sass/modules/_header.scss */
-.header-line {
-  margin: 0 -30px;
-  background: linear-gradient(to top, #93b1d5, #7197c6, #95b3d7);
+/* line 2, ../sass/modules/_news.scss */
+.front .pane-views-news-news-block {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 8, ../sass/modules/_news.scss */
+.front .pane-views-news-news-block h2 {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #4371a9;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+}
+/* line 18, ../sass/modules/_news.scss */
+.front .pane-views-news-news-block h2:before {
+  content: "";
+  display: inline-block;
+  width: 45px;
+  height: 35px;
+  background: url(../images/cloud.png) no-repeat;
+  background-size: contain;
+  margin-right: 6px;
+  margin-bottom: -10px;
+  color: #fff;
+}
+/* line 30, ../sass/modules/_news.scss */
+.front .pane-views-news-news-block .views-row {
+  min-height: 380px;
+}
+
+@media screen and (max-width: 1599px) and (min-width: 991px) {
+  /* line 39, ../sass/modules/_news.scss */
+  front .pane-views-news-news-block .views-row {
+    min-height: 340px;
+  }
+}
+@media screen and (max-width: 380px) {
+  /* line 45, ../sass/modules/_news.scss */
+  front .pane-views-news-news-block .views-row {
+    min-height: 350px;
+  }
+}
+/* line 51, ../sass/modules/_news.scss */
+.view-news {
   font-family: "Roboto", sans-serif;
 }
-/* line 7, ../sass/modules/_header.scss */
-.header-line .wrap {
-  float: none;
-  padding: 3px 0;
-  padding-bottom: 0;
+/* line 54, ../sass/modules/_news.scss */
+.view-news .view-content {
+  margin-left: -15px;
+  margin-right: -15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 15, ../sass/modules/_header.scss */
-.header-line .pane-locale-language {
+/* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.view-news .view-content:before, .view-news .view-content:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.view-news .view-content:after {
+  clear: both;
+}
+/* line 60, ../sass/modules/_news.scss */
+.view-news .views-row {
   position: relative;
   float: left;
-  width: 50%;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -9580,107 +9728,179 @@ body {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 0;
-  text-align: right;
+  min-height: 340px;
+  position: relative;
 }
 @media (min-width: 768px) {
-  /* line 15, ../sass/modules/_header.scss */
-  .header-line .pane-locale-language {
+  /* line 60, ../sass/modules/_news.scss */
+  .view-news .views-row {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 992px) {
-  /* line 15, ../sass/modules/_header.scss */
-  .header-line .pane-locale-language {
-    float: left;
-    width: 25%;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 15, ../sass/modules/_header.scss */
-  .header-line .pane-locale-language {
+  /* line 60, ../sass/modules/_news.scss */
+  .view-news .views-row {
     float: left;
     width: 33.33333333%;
   }
 }
-/* line 24, ../sass/modules/_header.scss */
-.header-line .pane-locale-language h2 {
-  color: white;
-  font-size: 16px;
-  font-weight: 100;
-  text-transform: lowercase;
-  display: inline-block;
-  padding-right: 8px;
-  margin-top: 0;
-}
-/* line 36, ../sass/modules/_header.scss */
-.header-line .pane-locale-language .pane-content {
-  display: inline-block;
-}
-/* line 40, ../sass/modules/_header.scss */
-.header-line .pane-locale-language ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 5px;
-}
-/* line 45, ../sass/modules/_header.scss */
-.header-line .pane-locale-language ul li {
-  display: inline-block;
-  padding-right: 5px;
-  margin-bottom: -5px;
-}
-/* line 50, ../sass/modules/_header.scss */
-.header-line .pane-locale-language ul li img {
-  width: 19px;
-  height: 15px;
-  border-radius: 3px;
-}
-/* line 60, ../sass/modules/_header.scss */
-.header-line .slogan {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 992px) {
-  /* line 60, ../sass/modules/_header.scss */
-  .header-line .slogan {
-    float: left;
-    width: 50%;
-  }
-}
 @media (min-width: 1200px) {
-  /* line 60, ../sass/modules/_header.scss */
-  .header-line .slogan {
+  /* line 60, ../sass/modules/_news.scss */
+  .view-news .views-row {
     float: left;
-    width: 41.66666667%;
+    width: 33.33333333%;
   }
 }
-/* line 66, ../sass/modules/_header.scss */
-.header-line .slogan p {
-  color: #fefdfb;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 100;
+/* line 71, ../sass/modules/_news.scss */
+.view-news .views-field-field-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 74, ../sass/modules/_header.scss */
-.header-line .phone {
+/* line 76, ../sass/modules/_news.scss */
+.view-news .views-field-title {
+  color: #4371a9;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 83, ../sass/modules/_news.scss */
+.view-news .views-field-title a {
+  text-decoration: none;
+}
+/* line 87, ../sass/modules/_news.scss */
+.view-news .views-field-body {
+  color: black;
+  font-size: 11px;
+  font-weight: 300;
+}
+/* line 92, ../sass/modules/_news.scss */
+.view-news .views-field-body p {
+  margin: 0;
+}
+/* line 95, ../sass/modules/_news.scss */
+.view-news .views-field-view-node {
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 20px;
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
+/* line 103, ../sass/modules/_news.scss */
+.view-news .views-field-view-node a {
+  color: #4371a9;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1600px) {
+  /* line 111, ../sass/modules/_news.scss */
+  .view-news .views-row {
+    min-height: 355px;
+  }
+}
+@media screen and (max-width: 690px) {
+  /* line 117, ../sass/modules/_news.scss */
+  .view-news .views-row {
+    min-height: 360px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* line 123, ../sass/modules/_news.scss */
+  .view-news .views-row {
+    min-height: 340px;
+  }
+}
+@media screen and (max-width: 380px) {
+  /* line 129, ../sass/modules/_news.scss */
+  .view-news .views-row {
+    min-height: 320px;
+  }
+}
+/* line 135, ../sass/modules/_news.scss */
+.node-news {
+  padding-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 141, ../sass/modules/_news.scss */
+.node-news .field-type-image img {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 149, ../sass/modules/_news.scss */
+.node-news .field-type-text-with-summary {
+  font-family: "Roboto", sans-serif;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 160, ../sass/modules/_news.scss */
+.page-blog .view-news .views-row {
   position: relative;
   float: left;
-  width: 50%;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 164, ../sass/modules/_news.scss */
+.page-blog .view-news .views-field-title {
+  padding-bottom: 4px;
+}
+/* line 168, ../sass/modules/_news.scss */
+.page-blog .view-news .views-field-created {
+  color: #767676;
+  font-size: 13px;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd9da;
+}
+/* line 176, ../sass/modules/_news.scss */
+.page-blog .view-news .views-field-body {
+  position: relative;
+  float: left;
+  width: 66.66666667%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 0;
+}
+/* line 181, ../sass/modules/_news.scss */
+.page-blog .view-news .views-field-field-image {
+  position: relative;
+  float: left;
+  width: 33.33333333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 184, ../sass/modules/_news.scss */
+.page-blog .view-news .views-field-view-node {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+/* line 195, ../sass/modules/_news.scss */
+.page-blog .blog-wrap > .pane-page-content {
   position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -9690,84 +9910,487 @@ body {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 74, ../sass/modules/_header.scss */
-  .header-line .phone {
+  /* line 195, ../sass/modules/_news.scss */
+  .page-blog .blog-wrap > .pane-page-content {
+    float: left;
+    width: 75%;
+  }
+}
+/* line 200, ../sass/modules/_news.scss */
+.page-blog .pane-simplenews-60 {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 200, ../sass/modules/_news.scss */
+  .page-blog .pane-simplenews-60 {
+    float: left;
+    width: 25%;
+  }
+}
+/* line 204, ../sass/modules/_news.scss */
+.page-blog .pane-simplenews-60 .pane-title {
+  color: #4a85bf;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Roboto",sans-serif;
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
+/* line 213, ../sass/modules/_news.scss */
+.page-blog .pane-simplenews-60 .simplenews-subscribe .control-label {
+  display: none;
+}
+/* line 216, ../sass/modules/_news.scss */
+.page-blog .pane-simplenews-60 .simplenews-subscribe .form-control {
+  height: 25px;
+  border: 1px solid #4a85bf;
+  max-width: 160px;
+  margin: 0 auto;
+}
+/* line 222, ../sass/modules/_news.scss */
+.page-blog .pane-simplenews-60 .simplenews-subscribe #edit-submit {
+  display: block;
+  width: 100%;
+  max-width: 110px;
+  margin: 0 auto;
+  background: #abc3dd;
+  color: white;
+  border: none;
+  padding: 3px 12px;
+  font-size: 15px;
+}
+
+/* line 1, ../sass/modules/_solutions.scss */
+.view-solutions {
+  text-align: center;
+  margin-top: 40px;
+}
+/* line 5, ../sass/modules/_solutions.scss */
+.view-solutions img {
+  margin: 0 auto;
+}
+/* line 10, ../sass/modules/_solutions.scss */
+.view-solutions .views-field-field-icon img {
+  width: 62px !important;
+  height: auto !important;
+}
+/* line 16, ../sass/modules/_solutions.scss */
+.view-solutions .attachment .views-row {
+  border: none;
+}
+/* line 21, ../sass/modules/_solutions.scss */
+.view-solutions .views-field-title {
+  display: none;
+}
+/* line 24, ../sass/modules/_solutions.scss */
+.view-solutions .views-field-field-image {
+  margin-bottom: 10px;
+}
+/* line 28, ../sass/modules/_solutions.scss */
+.view-solutions .views-field-name {
+  min-height: 60px;
+  padding-top: 5px;
+}
+/* line 32, ../sass/modules/_solutions.scss */
+.view-solutions .views-field-name a {
+  color: #ee3761;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 41, ../sass/modules/_solutions.scss */
+.pane-views-solutions-en-block-1,
+.pane-views-solutions-en-block-2,
+.pane-views-solutions-en-block-3,
+.pane-views-solutions-en-block-4,
+.pane-views-solutions-en-block-5,
+.pane-views-solutions-en-block-6 {
+  position: relative;
+  float: left;
+  width: 33.33333333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 41, ../sass/modules/_solutions.scss */
+  .pane-views-solutions-en-block-1,
+  .pane-views-solutions-en-block-2,
+  .pane-views-solutions-en-block-3,
+  .pane-views-solutions-en-block-4,
+  .pane-views-solutions-en-block-5,
+  .pane-views-solutions-en-block-6 {
+    float: left;
+    width: 16.66666667%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  /* line 52, ../sass/modules/_solutions.scss */
+  .view-solutions .views-field-name {
+    min-height: 75px;
+  }
+}
+/* line 3, ../sass/modules/_vendors.scss */
+.page-vendors .view-vendors {
+  margin-top: 30px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.page-vendors .view-vendors:before, .page-vendors .view-vendors:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.page-vendors .view-vendors:after {
+  clear: both;
+}
+/* line 7, ../sass/modules/_vendors.scss */
+.page-vendors .view-vendors .views-row {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 180px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  /* line 7, ../sass/modules/_vendors.scss */
+  .page-vendors .view-vendors .views-row {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 992px) {
-  /* line 74, ../sass/modules/_header.scss */
-  .header-line .phone {
+  /* line 7, ../sass/modules/_vendors.scss */
+  .page-vendors .view-vendors .views-row {
     float: left;
-    width: 25%;
+    width: 33.33333333%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 74, ../sass/modules/_header.scss */
-  .header-line .phone {
+  /* line 7, ../sass/modules/_vendors.scss */
+  .page-vendors .view-vendors .views-row {
     float: left;
-    width: 25%;
+    width: 33.33333333%;
   }
 }
-/* line 80, ../sass/modules/_header.scss */
-.header-line .phone p {
-  color: #fefdfb;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 100;
-  padding-left: 15px;
-  text-align: center;
-  margin-top: -6px;
+/* line 16, ../sass/modules/_vendors.scss */
+.page-vendors .view-vendors .views-row .views-field-title {
+  color: #4371a9;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 10px;
 }
-/* line 89, ../sass/modules/_header.scss */
-.header-line .phone p strong {
-  font-weight: 500;
-}
-/* line 93, ../sass/modules/_header.scss */
-.header-line .phone p:before {
-  font-family: FontAwesome;
-  content: '\f10b';
-  padding-right: 10px;
-  font-size: 19px;
-  position: relative;
-  top: 2px;
-}
-
-@media screen and (max-width: 969px) {
-  /* line 108, ../sass/modules/_header.scss */
-  .header-line .phone p {
-    text-align: left;
-  }
-}
-/* line 114, ../sass/modules/_header.scss */
-.header-group {
-  max-width: 1170px;
+/* line 23, ../sass/modules/_vendors.scss */
+.page-vendors .view-vendors .views-row img {
   margin: 0 auto;
 }
-/* line 123, ../sass/modules/_header.scss */
-.header-group #panel-bootstrap-region-logo {
-  margin-top: 18px;
+
+/* line 3, ../sass/modules/_contacts.scss */
+.contact .contacts-info {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
 }
-/* line 126, ../sass/modules/_header.scss */
-.header-group #panel-bootstrap-region-logo img {
-  max-width: 199px;
-  height: auto;
+@media (min-width: 768px) {
+  /* line 3, ../sass/modules/_contacts.scss */
+  .contact .contacts-info {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+/* line 9, ../sass/modules/_contacts.scss */
+.contact .contacts-info h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #d34167;
+  border-bottom: 1px solid #c5498c;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+/* line 18, ../sass/modules/_contacts.scss */
+.contact .contacts-info h2 span {
+  color: #4b4c4d;
+}
+/* line 23, ../sass/modules/_contacts.scss */
+.contact .contacts-info p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+/* line 31, ../sass/modules/_contacts.scss */
+.contact .contacts-adress {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-right: 0;
+  padding-left: 0;
+}
+@media (min-width: 768px) {
+  /* line 31, ../sass/modules/_contacts.scss */
+  .contact .contacts-adress {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+/* line 37, ../sass/modules/_contacts.scss */
+.contact .contacts-adress h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #d34167;
+  border-bottom: 1px solid #c5498c;
+  margin-top: 34px;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+}
+/* line 47, ../sass/modules/_contacts.scss */
+.contact .contacts-adress h2 span {
+  color: #4b4c4d;
+  margin-left: 130px;
+}
+/* line 53, ../sass/modules/_contacts.scss */
+.contact .contacts-adress .wrap {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  position: relative;
+  padding-left: 40px;
+  margin-left: 130px;
+}
+/* line 63, ../sass/modules/_contacts.scss */
+.contact .contacts-adress .wrap > span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+}
+/* line 71, ../sass/modules/_contacts.scss */
+.contact .contacts-adress .wrap.address > span {
+  background: url(../images/nav.png) 0 no-repeat;
+}
+/* line 75, ../sass/modules/_contacts.scss */
+.contact .contacts-adress .wrap.tel1 > span {
+  background: url(../images/tel1.png) 0 no-repeat;
+  top: -7px;
+}
+/* line 80, ../sass/modules/_contacts.scss */
+.contact .contacts-adress .wrap.tel2 > span {
+  background: url(../images/tel2.png) 0 no-repeat;
+  top: -7px;
+}
+/* line 85, ../sass/modules/_contacts.scss */
+.contact .contacts-adress .wrap.email > span {
+  background: url(../images/mail.png) 0 no-repeat;
+}
+/* line 90, ../sass/modules/_contacts.scss */
+.contact .contacts-form {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 768px) {
+  /* line 90, ../sass/modules/_contacts.scss */
+  .contact .contacts-form {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+/* line 96, ../sass/modules/_contacts.scss */
+.contact .contacts-form label {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+/* line 102, ../sass/modules/_contacts.scss */
+.contact .contacts-form .form-item {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-right: 0;
+  padding-left: 0;
+}
+@media (min-width: 768px) {
+  /* line 102, ../sass/modules/_contacts.scss */
+  .contact .contacts-form .form-item {
+    float: left;
+    width: 50%;
+  }
+}
+/* line 108, ../sass/modules/_contacts.scss */
+.contact .contacts-form .form-item:nth-child(2n+1) {
+  padding-left: 0;
+  padding-right: 10px;
+}
+/* line 113, ../sass/modules/_contacts.scss */
+.contact .contacts-form .form-item:nth-child(2n) {
+  padding-right: 0;
+  padding-left: 10px;
+}
+/* line 118, ../sass/modules/_contacts.scss */
+.contact .contacts-form .form-item input {
+  border-radius: 0;
+  border-color: #6f6f6f;
+}
+/* line 124, ../sass/modules/_contacts.scss */
+.contact .contacts-form .webform-component-textarea {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 0 !important;
+}
+/* line 129, ../sass/modules/_contacts.scss */
+.contact .contacts-form .webform-component-textarea textarea {
+  border-radius: 0;
+  border-color: #6f6f6f;
+}
+/* line 134, ../sass/modules/_contacts.scss */
+.contact .contacts-form .webform-component-textarea .grippie {
+  display: none;
+}
+/* line 138, ../sass/modules/_contacts.scss */
+.contact .contacts-form .form-actions button {
+  float: right;
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #e62f59;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+/* line 150, ../sass/modules/_contacts.scss */
+.contact .map {
+  float: right;
 }
 
-/* line 134, ../sass/modules/_header.scss */
-.not-logged-in .pane-system-main-menu .navbar {
-  margin-top: 20px;
-}
-/* line 137, ../sass/modules/_header.scss */
-.not-logged-in .header-group #panel-bootstrap-region-logo {
-  margin-top: 7px;
-}
+@media screen and (max-width: 1600px) {
+  /* line 154, ../sass/modules/_contacts.scss */
+  .contact .contacts-adress .wrap {
+    margin-left: 80px;
+  }
 
-@media screen and (max-width: 767px) {
-  /* line 143, ../sass/modules/_header.scss */
-  .not-logged-in .pane-system-main-menu .navbar {
-    margin-top: 0;
+  /* line 155, ../sass/modules/_contacts.scss */
+  .contact .contacts-adress h2 span {
+    margin-left: 80px;
+  }
+
+  /* line 156, ../sass/modules/_contacts.scss */
+  .map {
+    overflow: hidden;
+    max-width: 220px;
+  }
+}
+@media screen and (max-width: 989px) {
+  /* line 160, ../sass/modules/_contacts.scss */
+  .contact .contacts-adress .wrap {
+    margin-left: 65px;
+  }
+
+  /* line 161, ../sass/modules/_contacts.scss */
+  .contact .contacts-adress h2 span {
+    margin-left: 65px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 165, ../sass/modules/_contacts.scss */
+  .contact .contacts-adress .wrap {
+    margin-left: 0;
+  }
+
+  /* line 166, ../sass/modules/_contacts.scss */
+  .contact .contacts-adress h2 span {
+    margin-left: 0;
+  }
+
+  /* line 167, ../sass/modules/_contacts.scss */
+  .contact .map {
+    float: left;
+    overflow: visible;
+    margin-bottom: 15px;
+  }
+
+  /* line 168, ../sass/modules/_contacts.scss */
+  .contact .contacts-form .webform-component-textfield {
+    padding-right: 0;
+  }
+
+  /* line 169, ../sass/modules/_contacts.scss */
+  .contact .contacts-form .webform-component-email {
+    padding-left: 0;
   }
 }
 /* line 5, ../sass/modules/_cart.scss */
@@ -10070,205 +10693,461 @@ body {
     text-align: center;
   }
 }
-/* line 1, ../sass/modules/_menu.scss */
-.pane-system-main-menu {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-/* line 5, ../sass/modules/_menu.scss */
-.pane-system-main-menu .container-fluid {
-  margin-left: -15px;
-  margin-right: -15px;
-  padding-left: 0;
-  padding-right: 0;
-}
-/* line 13, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar {
-  background: none;
-  border: none;
-  margin-bottom: 0;
-  margin-top: 28px;
-  min-height: auto;
-}
-/* line 20, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar .navbar-nav {
-  float: none;
-  display: table;
-  margin: 0 auto;
-}
-/* line 26, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar li {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 19px;
-  border-right: 1px solid #95b3d7;
-  line-height: 20px;
-}
-/* line 33, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar li.last {
-  border: none;
-}
-/* line 37, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar li.open a {
-  background: none !important;
-}
-/* line 41, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar li.active a {
-  background: none;
-}
-/* line 44, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar li.active a:hover {
-  background: none;
-  color: #eb1244;
-}
-/* line 51, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar li .dropdown-menu li:hover a {
-  background: none;
-}
-/* line 54, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar li .caret {
+/* line 2, ../sass/modules/_checkout.scss */
+.page-checkout .street-block > .form-item-customer-profile-billing-commerce-customer-address-und-0-thoroughfare {
   display: none;
 }
-/* line 59, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar li a {
-  color: black;
-  padding: 0 10px;
-  font-weight: 100;
-  background: none;
+/* line 5, ../sass/modules/_checkout.scss */
+.page-checkout .address1 {
+  clear: both;
 }
-/* line 65, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar li a:hover {
-  color: #eb1244;
+
+/* line 2, ../sass/modules/_review.scss */
+.page-review .field-name-field-invoice-address {
+  white-space: pre;
 }
-/* line 69, ../sass/modules/_menu.scss */
-.pane-system-main-menu .navbar li .nolink {
-  color: black;
-  padding: 0 10px;
+
+/* line 4, ../sass/modules/_addressbook.scss */
+.page-user-edit .field-name-field-billing-register,
+.page-user-register .field-name-field-billing-register {
+  display: none;
+}
+
+/* line 12, ../sass/modules/_addressbook.scss */
+.page-user-addressbook .view-user-addressbook h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/* line 16, ../sass/modules/_addressbook.scss */
+.page-user-addressbook .view-user-addressbook .img-responsive {
+  display: inline-block;
+  float: left;
+}
+
+/* line 24, ../sass/modules/_addressbook.scss */
+.field-name-field-global {
+  display: none;
+}
+
+/* line 30, ../sass/modules/_addressbook.scss */
+.page-admin-commerce-customer-profiles-edit .field-name-field-end-customer,
+.page-admin-commerce-customer-profiles-edit .vertical-tabs.tabs-left {
+  display: none;
+}
+
+/* line 1, ../sass/modules/_estore-submenu.scss */
+.view-estore {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+}
+/* line 6, ../sass/modules/_estore-submenu.scss */
+.view-estore > .attachment {
+  display: table-cell;
+}
+/* line 9, ../sass/modules/_estore-submenu.scss */
+.view-estore > .attachment .row-wrapper {
+  display: inline-block !important;
+  border-left: 1px solid #d1d1d1 !important;
+  margin-right: -1px;
+  width: 100% !important;
+}
+/* line 17, ../sass/modules/_estore-submenu.scss */
+.view-estore > .view-content {
+  display: table-cell;
+}
+/* line 21, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content {
+  margin-left: -15px;
+  margin-right: -15px;
+  text-align: center;
+}
+/* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.view-estore .view-content:before, .view-estore .view-content:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.view-estore .view-content:after {
+  clear: both;
+}
+/* line 25, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper {
+  display: inline-block;
+  padding: 0 20px;
+  vertical-align: top;
+  border: 1px solid #d1d1d1;
+  border-bottom: 3px solid #7E7C7D;
+  border-left: none;
+  width: 20%;
+  position: relative;
+}
+/* line 35, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper:hover {
+  background: #7E7C7D;
+}
+/* line 37, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper:hover > h3 {
+  color: white;
+}
+/* line 40, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper:hover > h3 > a {
+  color: white;
+}
+/* line 46, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper h3 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 19px;
   font-weight: 100;
+  white-space: nowrap;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #333;
+}
+/* line 55, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper h3 a {
+  color: #333;
+}
+/* line 58, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper h3 a:hover {
+  text-decoration: none;
+}
+/* line 64, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper .row-content {
+  display: none;
+  position: absolute;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+/* line 71, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper .row-content .views-row {
+  display: list-item;
+  text-align: left;
+  color: #e7375e;
+}
+/* line 77, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper .row-content a {
+  font-size: 13px;
+  color: #777;
+  margin-left: -5px;
+  white-space: nowrap;
+}
+/* line 87, ../sass/modules/_estore-submenu.scss */
+.view-estore .view-content .row-wrapper:hover .row-content {
+  z-index: 999;
+  padding-top: 10px;
+  display: block !important;
+  background: white;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+  top: 33px;
+  left: 0;
+  min-width: 100%;
+  width: auto;
+}
+
+/* line 3, ../sass/modules/_estore-page.scss */
+.page-estore .pane-page-breadcrumb {
+  display: none;
+}
+/* line 7, ../sass/modules/_estore-page.scss */
+.page-estore .view-estore {
+  margin-bottom: 20px;
+}
+/* line 11, ../sass/modules/_estore-page.scss */
+.page-estore .pane-page-title {
+  margin-bottom: 0;
+}
+
+/* line 3, ../sass/modules/_catalog.scss */
+body.catalog #panel-bootstrap-region-content_top .pane-entity-field {
+  position: absolute;
+}
+/* line 6, ../sass/modules/_catalog.scss */
+body.catalog #panel-bootstrap-region-content_top .pane-entity-field img {
+  max-width: 75%;
+  margin-top: 5px;
+}
+/* line 11, ../sass/modules/_catalog.scss */
+body.catalog #panel-bootstrap-region-content_top .pane-page-title {
   background: none;
-  height: 20px;
+  margin: 0;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+/* line 19, ../sass/modules/_catalog.scss */
+body.catalog #panel-bootstrap-region-content_top .pane-page-title h1 {
+  color: black;
+}
+/* line 21, ../sass/modules/_catalog.scss */
+body.catalog #panel-bootstrap-region-content_top .pane-page-title h1:before {
+  content: none;
+}
+
+/* line 29, ../sass/modules/_catalog.scss */
+.catalog-prod {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* line 33, ../sass/modules/_catalog.scss */
+.catalog-prod .filter {
+  position: relative;
+  float: left;
+  width: 25%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 0 5px 0 0;
+}
+@media (min-width: 768px) {
+  /* line 33, ../sass/modules/_catalog.scss */
+  .catalog-prod .filter {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 33, ../sass/modules/_catalog.scss */
+  .catalog-prod .filter {
+    float: left;
+    width: 25%;
+  }
+}
+/* line 40, ../sass/modules/_catalog.scss */
+.catalog-prod .product-wrap {
+  position: relative;
+  float: left;
+  width: 75%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  /* line 40, ../sass/modules/_catalog.scss */
+  .catalog-prod .product-wrap {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 40, ../sass/modules/_catalog.scss */
+  .catalog-prod .product-wrap {
+    float: left;
+    width: 75%;
+  }
+}
+
+/* line 50, ../sass/modules/_catalog.scss */
+.filter .contextual-links-region {
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  padding: 5px 5px 10px 10px;
+}
+/* line 55, ../sass/modules/_catalog.scss */
+.filter .contextual-links-region:nth-child(3) {
+  border-top: 1px solid #e9e9e9;
+}
+/* line 61, ../sass/modules/_catalog.scss */
+.filter .panel-pane .pane-title {
+  color: #6a94c7;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 3px;
+}
+/* line 69, ../sass/modules/_catalog.scss */
+.filter .panel-pane.catalog-label p {
+  display: inline-block;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  width: 100%;
+  height: 27px;
+  background-color: #95b3d7;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 13px;
+  margin-top: 6px;
+}
+/* line 84, ../sass/modules/_catalog.scss */
+.filter .panel-pane .pane-content ul {
+  padding-left: 0;
+}
+/* line 87, ../sass/modules/_catalog.scss */
+.filter .panel-pane .pane-content ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+}
+/* line 93, ../sass/modules/_catalog.scss */
+.filter .panel-pane .pane-content ul a {
+  color: #6a94c7;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+/* line 100, ../sass/modules/_catalog.scss */
+.filter .panel-pane .pane-content ul input {
+  margin-right: 5px;
+  position: relative;
+  bottom: -2px;
+}
+
+/* line 112, ../sass/modules/_catalog.scss */
+.view-catalog .view-content {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin: 0 auto;
+}
+/* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.view-catalog .view-content:before, .view-catalog .view-content:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.view-catalog .view-content:after {
+  clear: both;
+}
+/* line 116, ../sass/modules/_catalog.scss */
+.view-catalog .view-content .views-row {
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 235px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border: 1px solid #e9e9e9;
+  border-left: none;
+}
+@media (min-width: 768px) {
+  /* line 116, ../sass/modules/_catalog.scss */
+  .view-catalog .view-content .views-row {
+    float: left;
+    width: 25%;
+  }
+}
+/* line 125, ../sass/modules/_catalog.scss */
+.view-catalog .view-content .views-row:nth-child(4n) {
+  border-right: none;
+}
+/* line 130, ../sass/modules/_catalog.scss */
+.view-catalog .view-content .views-row .views-field-field-image img {
+  margin: 0 auto;
+}
+/* line 133, ../sass/modules/_catalog.scss */
+.view-catalog .view-content .views-row .views-field-title a {
+  color: #4774aa;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+/* line 140, ../sass/modules/_catalog.scss */
+.view-catalog .view-content .views-row .views-field-commerce-price {
+  position: relative;
+  float: left;
+  width: 66.66666667%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 30px;
+  background-color: #ece5bc;
+  border-radius: 2px;
+  text-align: center;
+  padding: 4px;
+  white-space: nowrap;
+}
+@media (min-width: 768px) {
+  /* line 140, ../sass/modules/_catalog.scss */
+  .view-catalog .view-content .views-row .views-field-commerce-price {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+/* line 151, ../sass/modules/_catalog.scss */
+.view-catalog .view-content .views-row .views-field-commerce-price .field-content {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* line 158, ../sass/modules/_catalog.scss */
+.view-catalog .view-content .views-row .views-field-add-to-cart-form {
+  position: relative;
+  float: left;
+  width: 33.33333333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 158, ../sass/modules/_catalog.scss */
+  .view-catalog .view-content .views-row .views-field-add-to-cart-form {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+/* line 162, ../sass/modules/_catalog.scss */
+.view-catalog .view-content .views-row .views-field-add-to-cart-form .btn {
+  font-size: 0px;
+  height: 30px;
+  width: 33px;
+  margin-top: -22px;
+}
+/* line 168, ../sass/modules/_catalog.scss */
+.view-catalog .view-content .views-row .views-field-add-to-cart-form .btn:before {
+  font-family: FontAwesome;
+  content: "\f07a";
+  font-size: 17px;
+  position: absolute;
+  top: 3px;
+  left: 23px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 81, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar {
-    margin-top: 0;
-  }
-
-  /* line 84, ../sass/modules/_menu.scss */
-  .navbar-header {
-    background: #515558;
-  }
-
-  /* line 85, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li {
-    border: none;
-    padding: 5px 0;
-  }
-
-  /* line 86, ../sass/modules/_menu.scss */
-  .navbar-collapse.in {
-    overflow: visible;
-  }
-
-  /* line 88, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li.dropdown > .dropdown-menu > li > a {
-    color: black !important;
-  }
-}
-@media screen and (min-width: 768px) {
-  /* line 94, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li:hover .dropdown-menu {
-    display: block;
-  }
-
-  /* line 98, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu {
-    width: 500px;
-    left: -170px;
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-  /* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu:before, .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu:before, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu:before, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu:before, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu:before, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu:after {
-    content: " ";
-    display: table;
-  }
-  /* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu:after, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu:after {
-    clear: both;
-  }
-  /* line 103, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu > li > a, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu > li > a, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu > li > a, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu > li > a, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu > li > a {
-    text-transform: uppercase;
-    color: #ff315f;
-  }
-  /* line 108, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu .dropdown-submenu {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 768px) {
-  /* line 108, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu .dropdown-submenu, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu .dropdown-submenu {
-    float: left;
-    width: 50%;
-  }
-}
-@media screen and (min-width: 768px) {
-  /* line 111, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu .dropdown-submenu .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu .dropdown-submenu .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu .dropdown-submenu .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu .dropdown-submenu .dropdown-menu, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu .dropdown-submenu .dropdown-menu {
-    position: relative;
-    border: none;
-    box-shadow: none;
-    padding-left: 10px;
-    padding-top: 0;
-    padding-bottom: 10px;
-    margin-top: -5px;
-  }
-  /* line 120, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-1771 > .dropdown-menu .dropdown-submenu .dropdown-menu li, .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu .dropdown-submenu .dropdown-menu li, .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu .dropdown-submenu .dropdown-menu li, .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu .dropdown-submenu .dropdown-menu li, .pane-system-main-menu .navbar li.dropdown.mlid-3116 > .dropdown-menu .dropdown-submenu .dropdown-menu li {
+  /* line 182, ../sass/modules/_catalog.scss */
+  .view-catalog .view-content .views-row:nth-child(2n) {
     border-right: none;
-    color: #7c7878;
-    font-size: 16px;
-  }
-
-  /* line 131, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-3117 > .dropdown-menu {
-    left: -160px;
-  }
-
-  /* line 133, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-3118 > .dropdown-menu {
-    left: -169px;
-  }
-
-  /* line 134, ../sass/modules/_menu.scss */
-  .pane-system-main-menu .navbar li.dropdown.mlid-3115 > .dropdown-menu {
-    left: -169px;
   }
 }
-@media screen and (min-width: 990px) and (max-width: 1600px) {
-  /* line 139, ../sass/modules/_menu.scss */
-  .pane-system-main-menu {
-    margin-right: -45px;
-  }
-}
-@media screen and (min-width: 1601px) {
-  /* line 144, ../sass/modules/_menu.scss */
-  .pane-system-main-menu {
-    margin-right: -20px;
-  }
-}
-/* line 150, ../sass/modules/_menu.scss */
-.not-logged-in.page-user-login.i18n-en .pane-content .form-item-name label {
-  width: 46px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 /* line 2, ../sass/modules/_product.scss */
 .breadcrumb {
   background: none;
@@ -10748,362 +11627,6 @@ body {
   /* line 287, ../sass/modules/_product.scss */
   .product article.node .field-name-field-image .gallery-thumbs .wrapper li:last-child {
     margin-right: 0;
-  }
-}
-/* line 3, ../sass/modules/_vendors.scss */
-.page-vendors .view-vendors {
-  margin-top: 30px;
-  margin-left: -15px;
-  margin-right: -15px;
-}
-/* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.page-vendors .view-vendors:before, .page-vendors .view-vendors:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.page-vendors .view-vendors:after {
-  clear: both;
-}
-/* line 7, ../sass/modules/_vendors.scss */
-.page-vendors .view-vendors .views-row {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  min-height: 180px;
-  text-align: center;
-}
-@media (min-width: 768px) {
-  /* line 7, ../sass/modules/_vendors.scss */
-  .page-vendors .view-vendors .views-row {
-    float: left;
-    width: 50%;
-  }
-}
-@media (min-width: 992px) {
-  /* line 7, ../sass/modules/_vendors.scss */
-  .page-vendors .view-vendors .views-row {
-    float: left;
-    width: 33.33333333%;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 7, ../sass/modules/_vendors.scss */
-  .page-vendors .view-vendors .views-row {
-    float: left;
-    width: 33.33333333%;
-  }
-}
-/* line 16, ../sass/modules/_vendors.scss */
-.page-vendors .view-vendors .views-row .views-field-title {
-  color: #4371a9;
-  font-size: 16px;
-  font-weight: 300;
-  padding-top: 10px;
-}
-/* line 23, ../sass/modules/_vendors.scss */
-.page-vendors .view-vendors .views-row img {
-  margin: 0 auto;
-}
-
-/* line 3, ../sass/modules/_catalog.scss */
-body.catalog #panel-bootstrap-region-content_top .pane-entity-field {
-  position: absolute;
-}
-/* line 6, ../sass/modules/_catalog.scss */
-body.catalog #panel-bootstrap-region-content_top .pane-entity-field img {
-  max-width: 75%;
-  margin-top: 5px;
-}
-/* line 11, ../sass/modules/_catalog.scss */
-body.catalog #panel-bootstrap-region-content_top .pane-page-title {
-  background: none;
-  margin: 0;
-  text-align: left;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-left: 80px;
-}
-/* line 19, ../sass/modules/_catalog.scss */
-body.catalog #panel-bootstrap-region-content_top .pane-page-title h1 {
-  color: black;
-}
-/* line 21, ../sass/modules/_catalog.scss */
-body.catalog #panel-bootstrap-region-content_top .pane-page-title h1:before {
-  content: none;
-}
-
-/* line 29, ../sass/modules/_catalog.scss */
-.catalog-prod {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-/* line 33, ../sass/modules/_catalog.scss */
-.catalog-prod .filter {
-  position: relative;
-  float: left;
-  width: 25%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding: 0 5px 0 0;
-}
-@media (min-width: 768px) {
-  /* line 33, ../sass/modules/_catalog.scss */
-  .catalog-prod .filter {
-    float: left;
-    width: 25%;
-  }
-}
-@media (min-width: 992px) {
-  /* line 33, ../sass/modules/_catalog.scss */
-  .catalog-prod .filter {
-    float: left;
-    width: 25%;
-  }
-}
-/* line 40, ../sass/modules/_catalog.scss */
-.catalog-prod .product-wrap {
-  position: relative;
-  float: left;
-  width: 75%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding: 0;
-}
-@media (min-width: 768px) {
-  /* line 40, ../sass/modules/_catalog.scss */
-  .catalog-prod .product-wrap {
-    float: left;
-    width: 75%;
-  }
-}
-@media (min-width: 992px) {
-  /* line 40, ../sass/modules/_catalog.scss */
-  .catalog-prod .product-wrap {
-    float: left;
-    width: 75%;
-  }
-}
-
-/* line 50, ../sass/modules/_catalog.scss */
-.filter .contextual-links-region {
-  border-bottom: 1px solid #e9e9e9;
-  border-right: 1px solid #e9e9e9;
-  padding: 5px 5px 10px 10px;
-}
-/* line 55, ../sass/modules/_catalog.scss */
-.filter .contextual-links-region:nth-child(3) {
-  border-top: 1px solid #e9e9e9;
-}
-/* line 61, ../sass/modules/_catalog.scss */
-.filter .panel-pane .pane-title {
-  color: #6a94c7;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  padding-bottom: 3px;
-}
-/* line 69, ../sass/modules/_catalog.scss */
-.filter .panel-pane.catalog-label p {
-  display: inline-block;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-size: 19px;
-  font-weight: 300;
-  width: 100%;
-  height: 27px;
-  background-color: #95b3d7;
-  border-radius: 4px;
-  text-align: center;
-  margin-bottom: 13px;
-  margin-top: 6px;
-}
-/* line 84, ../sass/modules/_catalog.scss */
-.filter .panel-pane .pane-content ul {
-  padding-left: 0;
-}
-/* line 87, ../sass/modules/_catalog.scss */
-.filter .panel-pane .pane-content ul li {
-  font-family: "Roboto", sans-serif;
-  font-size: 10px;
-  font-weight: 300;
-}
-/* line 93, ../sass/modules/_catalog.scss */
-.filter .panel-pane .pane-content ul a {
-  color: #6a94c7;
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-}
-/* line 100, ../sass/modules/_catalog.scss */
-.filter .panel-pane .pane-content ul input {
-  margin-right: 5px;
-  position: relative;
-  bottom: -2px;
-}
-
-/* line 112, ../sass/modules/_catalog.scss */
-.view-catalog .view-content {
-  margin-left: -15px;
-  margin-right: -15px;
-  margin: 0 auto;
-}
-/* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.view-catalog .view-content:before, .view-catalog .view-content:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.view-catalog .view-content:after {
-  clear: both;
-}
-/* line 116, ../sass/modules/_catalog.scss */
-.view-catalog .view-content .views-row {
-  position: relative;
-  float: left;
-  width: 50%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  min-height: 235px;
-  padding-top: 15px;
-  padding-bottom: 20px;
-  border: 1px solid #e9e9e9;
-  border-left: none;
-}
-@media (min-width: 768px) {
-  /* line 116, ../sass/modules/_catalog.scss */
-  .view-catalog .view-content .views-row {
-    float: left;
-    width: 25%;
-  }
-}
-/* line 125, ../sass/modules/_catalog.scss */
-.view-catalog .view-content .views-row:nth-child(4n) {
-  border-right: none;
-}
-/* line 130, ../sass/modules/_catalog.scss */
-.view-catalog .view-content .views-row .views-field-field-image img {
-  margin: 0 auto;
-}
-/* line 133, ../sass/modules/_catalog.scss */
-.view-catalog .view-content .views-row .views-field-title a {
-  color: #4774aa;
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-}
-/* line 140, ../sass/modules/_catalog.scss */
-.view-catalog .view-content .views-row .views-field-commerce-price {
-  position: relative;
-  float: left;
-  width: 66.66666667%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  height: 30px;
-  background-color: #ece5bc;
-  border-radius: 2px;
-  text-align: center;
-  padding: 4px;
-  white-space: nowrap;
-}
-@media (min-width: 768px) {
-  /* line 140, ../sass/modules/_catalog.scss */
-  .view-catalog .view-content .views-row .views-field-commerce-price {
-    float: left;
-    width: 66.66666667%;
-  }
-}
-/* line 151, ../sass/modules/_catalog.scss */
-.view-catalog .view-content .views-row .views-field-commerce-price .field-content {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-}
-/* line 158, ../sass/modules/_catalog.scss */
-.view-catalog .view-content .views-row .views-field-add-to-cart-form {
-  position: relative;
-  float: left;
-  width: 33.33333333%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  /* line 158, ../sass/modules/_catalog.scss */
-  .view-catalog .view-content .views-row .views-field-add-to-cart-form {
-    float: left;
-    width: 33.33333333%;
-  }
-}
-/* line 162, ../sass/modules/_catalog.scss */
-.view-catalog .view-content .views-row .views-field-add-to-cart-form .btn {
-  font-size: 0px;
-  height: 30px;
-  width: 33px;
-  margin-top: -22px;
-}
-/* line 168, ../sass/modules/_catalog.scss */
-.view-catalog .view-content .views-row .views-field-add-to-cart-form .btn:before {
-  font-family: FontAwesome;
-  content: "\f07a";
-  font-size: 17px;
-  position: absolute;
-  top: 3px;
-  left: 23px;
-}
-
-@media screen and (max-width: 767px) {
-  /* line 182, ../sass/modules/_catalog.scss */
-  .view-catalog .view-content .views-row:nth-child(2n) {
-    border-right: none;
   }
 }
 /* line 2, ../sass/modules/_user.scss */
@@ -11953,520 +12476,8 @@ body.catalog #panel-bootstrap-region-content_top .pane-page-title h1:before {
   display: none !important;
 }
 
-/* line 4, ../sass/modules/_addressbook.scss */
-.page-user-edit .field-name-field-billing-register,
-.page-user-register .field-name-field-billing-register {
+/* line 3, ../sass/modules/_node_edit.scss */
+.page-node-edit .field-name-field-brands,
+.page-node-edit #edit-translation {
   display: none;
-}
-
-/* line 12, ../sass/modules/_addressbook.scss */
-.page-user-addressbook .view-user-addressbook h3 {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-/* line 16, ../sass/modules/_addressbook.scss */
-.page-user-addressbook .view-user-addressbook .img-responsive {
-  display: inline-block;
-  float: left;
-}
-
-/* line 24, ../sass/modules/_addressbook.scss */
-.field-name-field-global {
-  display: none;
-}
-
-/* line 30, ../sass/modules/_addressbook.scss */
-.page-admin-commerce-customer-profiles-edit .field-name-field-end-customer,
-.page-admin-commerce-customer-profiles-edit .vertical-tabs.tabs-left {
-  display: none;
-}
-
-/* line 3, ../sass/modules/_contacts.scss */
-.contact .contacts-info {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-left: 0;
-  padding-right: 0;
-}
-@media (min-width: 768px) {
-  /* line 3, ../sass/modules/_contacts.scss */
-  .contact .contacts-info {
-    float: left;
-    width: 66.66666667%;
-  }
-}
-/* line 9, ../sass/modules/_contacts.scss */
-.contact .contacts-info h2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #d34167;
-  border-bottom: 1px solid #c5498c;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-}
-/* line 18, ../sass/modules/_contacts.scss */
-.contact .contacts-info h2 span {
-  color: #4b4c4d;
-}
-/* line 23, ../sass/modules/_contacts.scss */
-.contact .contacts-info p {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  margin-bottom: 35px;
-}
-/* line 31, ../sass/modules/_contacts.scss */
-.contact .contacts-adress {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-right: 0;
-  padding-left: 0;
-}
-@media (min-width: 768px) {
-  /* line 31, ../sass/modules/_contacts.scss */
-  .contact .contacts-adress {
-    float: left;
-    width: 33.33333333%;
-  }
-}
-/* line 37, ../sass/modules/_contacts.scss */
-.contact .contacts-adress h2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  color: #d34167;
-  border-bottom: 1px solid #c5498c;
-  margin-top: 34px;
-  margin-bottom: 15px;
-  padding-bottom: 8px;
-}
-/* line 47, ../sass/modules/_contacts.scss */
-.contact .contacts-adress h2 span {
-  color: #4b4c4d;
-  margin-left: 130px;
-}
-/* line 53, ../sass/modules/_contacts.scss */
-.contact .contacts-adress .wrap {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  margin-bottom: 25px;
-  position: relative;
-  padding-left: 40px;
-  margin-left: 130px;
-}
-/* line 63, ../sass/modules/_contacts.scss */
-.contact .contacts-adress .wrap > span {
-  display: block;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  left: 0;
-}
-/* line 71, ../sass/modules/_contacts.scss */
-.contact .contacts-adress .wrap.address > span {
-  background: url(../images/nav.png) 0 no-repeat;
-}
-/* line 75, ../sass/modules/_contacts.scss */
-.contact .contacts-adress .wrap.tel1 > span {
-  background: url(../images/tel1.png) 0 no-repeat;
-  top: -7px;
-}
-/* line 80, ../sass/modules/_contacts.scss */
-.contact .contacts-adress .wrap.tel2 > span {
-  background: url(../images/tel2.png) 0 no-repeat;
-  top: -7px;
-}
-/* line 85, ../sass/modules/_contacts.scss */
-.contact .contacts-adress .wrap.email > span {
-  background: url(../images/mail.png) 0 no-repeat;
-}
-/* line 90, ../sass/modules/_contacts.scss */
-.contact .contacts-form {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-left: 0;
-  padding-right: 0;
-}
-@media (min-width: 768px) {
-  /* line 90, ../sass/modules/_contacts.scss */
-  .contact .contacts-form {
-    float: left;
-    width: 66.66666667%;
-  }
-}
-/* line 96, ../sass/modules/_contacts.scss */
-.contact .contacts-form label {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-}
-/* line 102, ../sass/modules/_contacts.scss */
-.contact .contacts-form .form-item {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-right: 0;
-  padding-left: 0;
-}
-@media (min-width: 768px) {
-  /* line 102, ../sass/modules/_contacts.scss */
-  .contact .contacts-form .form-item {
-    float: left;
-    width: 50%;
-  }
-}
-/* line 108, ../sass/modules/_contacts.scss */
-.contact .contacts-form .form-item:nth-child(2n+1) {
-  padding-left: 0;
-  padding-right: 10px;
-}
-/* line 113, ../sass/modules/_contacts.scss */
-.contact .contacts-form .form-item:nth-child(2n) {
-  padding-right: 0;
-  padding-left: 10px;
-}
-/* line 118, ../sass/modules/_contacts.scss */
-.contact .contacts-form .form-item input {
-  border-radius: 0;
-  border-color: #6f6f6f;
-}
-/* line 124, ../sass/modules/_contacts.scss */
-.contact .contacts-form .webform-component-textarea {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-left: 0;
-  padding-right: 0 !important;
-}
-/* line 129, ../sass/modules/_contacts.scss */
-.contact .contacts-form .webform-component-textarea textarea {
-  border-radius: 0;
-  border-color: #6f6f6f;
-}
-/* line 134, ../sass/modules/_contacts.scss */
-.contact .contacts-form .webform-component-textarea .grippie {
-  display: none;
-}
-/* line 138, ../sass/modules/_contacts.scss */
-.contact .contacts-form .form-actions button {
-  float: right;
-  color: white;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 300;
-  background-color: #e62f59;
-  border: 1px solid white;
-  border-radius: 3px;
-}
-/* line 150, ../sass/modules/_contacts.scss */
-.contact .map {
-  float: right;
-}
-
-@media screen and (max-width: 1600px) {
-  /* line 154, ../sass/modules/_contacts.scss */
-  .contact .contacts-adress .wrap {
-    margin-left: 80px;
-  }
-
-  /* line 155, ../sass/modules/_contacts.scss */
-  .contact .contacts-adress h2 span {
-    margin-left: 80px;
-  }
-
-  /* line 156, ../sass/modules/_contacts.scss */
-  .map {
-    overflow: hidden;
-    max-width: 220px;
-  }
-}
-@media screen and (max-width: 989px) {
-  /* line 160, ../sass/modules/_contacts.scss */
-  .contact .contacts-adress .wrap {
-    margin-left: 65px;
-  }
-
-  /* line 161, ../sass/modules/_contacts.scss */
-  .contact .contacts-adress h2 span {
-    margin-left: 65px;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 165, ../sass/modules/_contacts.scss */
-  .contact .contacts-adress .wrap {
-    margin-left: 0;
-  }
-
-  /* line 166, ../sass/modules/_contacts.scss */
-  .contact .contacts-adress h2 span {
-    margin-left: 0;
-  }
-
-  /* line 167, ../sass/modules/_contacts.scss */
-  .contact .map {
-    float: left;
-    overflow: visible;
-    margin-bottom: 15px;
-  }
-
-  /* line 168, ../sass/modules/_contacts.scss */
-  .contact .contacts-form .webform-component-textfield {
-    padding-right: 0;
-  }
-
-  /* line 169, ../sass/modules/_contacts.scss */
-  .contact .contacts-form .webform-component-email {
-    padding-left: 0;
-  }
-}
-/* line 1, ../sass/modules/_solutions.scss */
-.view-solutions {
-  text-align: center;
-  margin-top: 40px;
-}
-/* line 5, ../sass/modules/_solutions.scss */
-.view-solutions img {
-  margin: 0 auto;
-}
-/* line 10, ../sass/modules/_solutions.scss */
-.view-solutions .views-field-field-icon img {
-  width: 62px !important;
-  height: auto !important;
-}
-/* line 16, ../sass/modules/_solutions.scss */
-.view-solutions .attachment .views-row {
-  border: none;
-}
-/* line 21, ../sass/modules/_solutions.scss */
-.view-solutions .views-field-title {
-  display: none;
-}
-/* line 24, ../sass/modules/_solutions.scss */
-.view-solutions .views-field-field-image {
-  margin-bottom: 10px;
-}
-/* line 28, ../sass/modules/_solutions.scss */
-.view-solutions .views-field-name {
-  min-height: 60px;
-  padding-top: 5px;
-}
-/* line 32, ../sass/modules/_solutions.scss */
-.view-solutions .views-field-name a {
-  color: #ee3761;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-/* line 41, ../sass/modules/_solutions.scss */
-.pane-views-solutions-en-block-1,
-.pane-views-solutions-en-block-2,
-.pane-views-solutions-en-block-3,
-.pane-views-solutions-en-block-4,
-.pane-views-solutions-en-block-5,
-.pane-views-solutions-en-block-6 {
-  position: relative;
-  float: left;
-  width: 33.33333333%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  /* line 41, ../sass/modules/_solutions.scss */
-  .pane-views-solutions-en-block-1,
-  .pane-views-solutions-en-block-2,
-  .pane-views-solutions-en-block-3,
-  .pane-views-solutions-en-block-4,
-  .pane-views-solutions-en-block-5,
-  .pane-views-solutions-en-block-6 {
-    float: left;
-    width: 16.66666667%;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-  /* line 52, ../sass/modules/_solutions.scss */
-  .view-solutions .views-field-name {
-    min-height: 75px;
-  }
-}
-/* line 2, ../sass/modules/_checkout.scss */
-.page-checkout .street-block > .form-item-customer-profile-billing-commerce-customer-address-und-0-thoroughfare {
-  display: none;
-}
-/* line 5, ../sass/modules/_checkout.scss */
-.page-checkout .address1 {
-  clear: both;
-}
-
-/* line 1, ../sass/modules/_estore-submenu.scss */
-.view-estore {
-  display: table;
-  margin: 0 auto;
-  width: 100%;
-}
-/* line 6, ../sass/modules/_estore-submenu.scss */
-.view-estore > .attachment {
-  display: table-cell;
-}
-/* line 9, ../sass/modules/_estore-submenu.scss */
-.view-estore > .attachment .row-wrapper {
-  display: inline-block !important;
-  border-left: 1px solid #d1d1d1 !important;
-  margin-right: -1px;
-  width: 100% !important;
-}
-/* line 17, ../sass/modules/_estore-submenu.scss */
-.view-estore > .view-content {
-  display: table-cell;
-}
-/* line 21, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content {
-  margin-left: -15px;
-  margin-right: -15px;
-  text-align: center;
-}
-/* line 14, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.view-estore .view-content:before, .view-estore .view-content:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.view-estore .view-content:after {
-  clear: both;
-}
-/* line 25, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper {
-  display: inline-block;
-  padding: 0 20px;
-  vertical-align: top;
-  border: 1px solid #d1d1d1;
-  border-bottom: 3px solid #7E7C7D;
-  border-left: none;
-  width: 20%;
-  position: relative;
-}
-/* line 35, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper:hover {
-  background: #7E7C7D;
-}
-/* line 37, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper:hover > h3 {
-  color: white;
-}
-/* line 40, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper:hover > h3 > a {
-  color: white;
-}
-/* line 46, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper h3 {
-  margin-bottom: 5px;
-  margin-top: 5px;
-  font-size: 19px;
-  font-weight: 100;
-  white-space: nowrap;
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #333;
-}
-/* line 55, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper h3 a {
-  color: #333;
-}
-/* line 58, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper h3 a:hover {
-  text-decoration: none;
-}
-/* line 64, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper .row-content {
-  display: none;
-  position: absolute;
-  padding-left: 20px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
-/* line 71, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper .row-content .views-row {
-  display: list-item;
-  text-align: left;
-  color: #e7375e;
-}
-/* line 77, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper .row-content a {
-  font-size: 13px;
-  color: #777;
-  margin-left: -5px;
-  white-space: nowrap;
-}
-/* line 87, ../sass/modules/_estore-submenu.scss */
-.view-estore .view-content .row-wrapper:hover .row-content {
-  z-index: 999;
-  padding-top: 10px;
-  display: block !important;
-  background: white;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0 0 4px 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  background-clip: padding-box;
-  top: 33px;
-  left: 0;
-  min-width: 100%;
-  width: auto;
-}
-
-/* line 3, ../sass/modules/_estore-page.scss */
-.page-estore .pane-page-breadcrumb {
-  display: none;
-}
-/* line 7, ../sass/modules/_estore-page.scss */
-.page-estore .view-estore {
-  margin-bottom: 20px;
-}
-/* line 11, ../sass/modules/_estore-page.scss */
-.page-estore .pane-page-title {
-  margin-bottom: 0;
 }

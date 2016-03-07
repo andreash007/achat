@@ -17,19 +17,30 @@
 @import "base/base";
 
 // Import Modules Sass
-@import "modules/news"; 
+@import "modules/header";
+@import "modules/menu";
 @import "modules/footer";
-@import "modules/front";   
-@import "modules/header"; 
-@import "modules/cart";
-@import "modules/menu";  
-@import "modules/product"; 
-@import "modules/vendors";
-@import "modules/catalog";
-@import "modules/user";
-@import "modules/addressbook"; 
-@import "modules/contacts";
+
+@import "modules/front";
+@import "modules/news";
 @import "modules/solutions";
+@import "modules/vendors";
+@import "modules/contacts";
+
+@import "modules/cart";
 @import "modules/checkout";
+@import "modules/review";
+
+@import "modules/addressbook";
+
 @import "modules/_estore-submenu";
 @import "modules/_estore-page";
+@import "modules/catalog";
+@import "modules/product";
+
+@import "modules/user";
+@import "modules/node_edit";
+
+
+
+

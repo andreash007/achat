@@ -38,19 +38,18 @@ body {
 }
 
 .billing {
-  border: 2px solid #b9b9b9;
-  font-size: 12px;
+  position: relative;
 
-  .billing-header {
-    font-weight: bold;
-    background: #cccccc;
-    padding: 5px;
-  }
-  .customer {
-    padding: 5px;
+  .customer, .customer-shipping {
+    border: 2px solid #b9b9b9;
+    font-size: 12px;
+    width: 45%;
 
-    & > div > div {
-      font-size: 0;
+    // Block header
+    & > div > div:first-child {
+      font-weight: bold;
+      background: #cccccc;
+      padding: 5px;
 
       div {
         font-size: 12px;
@@ -58,7 +57,26 @@ body {
         & > div > div > div:first-child > div:first-child {
           font-weight: bold;
         }
+        div{
+          font-weight: normal;
+        }
       }
+    }
+    & > div > div > div {
+      padding: 2px 5px;
+    }
+  }
+
+  .customer-shipping {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .field-name-field-end-customer,
+    .field-name-field-purchase-order-number,
+    .field-name-field-packaging-comment,
+    .field-name-field-shipping-label-comment {
+      display: none;
     }
   }
 }
@@ -68,13 +86,16 @@ body {
 
   .view-commerce-line-item-table {
     table {
-      @extend .billing;
+      border: 2px solid #b9b9b9;
+      font-size: 12px;
       width: 100%;
       line-height: 1.2em;
       border-collapse: collapse;
 
       thead th {
-        @extend .billing-header;
+        font-weight: bold;
+        background: #cccccc;
+        padding: 5px;
         text-align: center;
       }
 
@@ -83,6 +104,7 @@ body {
         text-align: center;
         height: 30px;
         border-bottom: 1px solid #e7e7e7;
+        padding: 0 5px;
       }
 
       .views-field-commerce-total {
@@ -93,10 +115,6 @@ body {
       .views-field-line-item-title-1 {
         text-align: left;
         width: 300px;
-      }
-
-      .views-field-line-item-label {
-        display: none;
       }
     }
   }
@@ -112,13 +130,13 @@ body {
     }
 
     td.component-total {
+      padding-right: 5px;
       text-align: right;
       width: 80px;
       background: #cccccc;
     }
   }
 }
-
 
 .text {
   position: absolute;
@@ -158,3 +176,9 @@ body {
 }
 
 .field-name-field-global {display: none;}
+div {
+  //border: 1px solid red;
+}
+span {
+  //border: 1px solid #5cb85c;
+}
