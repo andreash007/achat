@@ -1,3 +1,9 @@
+# exclude development folder
+/.idea
+/.sass-cache
+/bootstrap-sass
+/js/bootstrap
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
