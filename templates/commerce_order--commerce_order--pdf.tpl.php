@@ -9,8 +9,8 @@
     <p><?php print render($content['invoice_header']); ?></p>
   </div>
   <div class="billing">
-    <div class="billing-header">Delivery address</div>
     <div class="customer"><?php print render($content['commerce_customer_billing']); ?></div>
+    <div class="customer-shipping"><?php print render($content['commerce_customer_shipping']); ?></div>
   </div>
   <!-- <div class="order-id"><?php print render($content['order_id']); ?></div> -->
 

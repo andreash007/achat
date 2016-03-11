@@ -1,5 +1,5 @@
 // Import Compass integration
-@import 'compass';
+@import "compass";
 
 // Import Bootstrap Compass integration
 @import "bootstrap-compass";
@@ -34,6 +34,7 @@
 @import "modules/addressbook";
 
 @import "modules/_estore-submenu";
+@import "modules/_estore-filters";
 @import "modules/_estore-page";
 @import "modules/catalog";
 @import "modules/product";

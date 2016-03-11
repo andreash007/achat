@@ -1,0 +1,37 @@
+.estore-filters {
+  @include make-xs-column(2);
+  @include make-sm-column(2);
+  @include make-md-column(2);
+  padding: 0 5px 0 0;
+
+  .pane-title {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    height: 27px;
+    background-color: #95b3d7;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 13px;
+    padding-top: 4px;
+  }
+
+  .pane-content > .view-estore {
+    h3 {
+      color: #6a94c7;
+      font-family: $font-stack;
+      font-size: 18px;
+      font-weight: 300;
+      padding-bottom: 3px;
+    }
+
+    .views-field-name {
+      color: #6a94c7;
+      font-family: "Roboto", sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+}
