@@ -17,6 +17,10 @@ function achat_preprocess_html (&$vars) {
     if(arg(2) == 'edit') {
       drupal_add_js(drupal_get_path('theme', 'achat') .'/js/node-edit.js', 'file');
     }
+
+    if ((arg(2)!= 'edit') && (arg(1) != 'add')) {
+      $vars['classes_array'][] = 'node-view';
+    }
     break;
   }
 }

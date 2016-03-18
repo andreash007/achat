@@ -38,15 +38,20 @@
   }
 }
 
-.pane-views-solutions-en-block-1,
-.pane-views-solutions-en-block-2,
-.pane-views-solutions-en-block-3,
-.pane-views-solutions-en-block-4,
-.pane-views-solutions-en-block-5,
-.pane-views-solutions-en-block-6 {
-  @include make-xs-column(4);
-  @include make-sm-column(2);
+#solutions {
+  @include make-row;
+
+  .pane-views-solutions-en-power,
+  .pane-views-solutions-en-wireless,
+  .pane-views-solutions-en-block-3,
+  .pane-views-solutions-en-block-4,
+  .pane-views-solutions-en-block-5,
+  .pane-views-solutions-en-block-6 {
+    @include make-xs-column(4);
+    @include make-sm-column(2);
+  }
 }
+
 
 @media screen and (max-width: 1600px) {
   .view-solutions .views-field-name {min-height: 75px;}

@@ -228,36 +228,6 @@
         white-space: nowrap;
       }
     }
-    .field-group-htabs-wrapper  {
-      @include make-xs-column(12);
-      @include make-md-column(12);
-      @include make-sm-column(12);
-      margin-top: 35px;
-      
-      ul.horizontal-tabs-list {
-        border-bottom: 1px solid #dedede;
-        background: none;
-        
-        li {
-          background: none;
-          
-          &.selected {
-            background: url(../images/ribbon-bg.png)
-          }
-          
-          a { 
-            color: #7c7a7a;
-            font-family: $font-stack;
-            font-size: 18px;
-            font-weight: 300;
-          }
-          
-          & strong {
-            font-weight: 100;
-          }
-        }
-      }
-    }
   }
 }
 
